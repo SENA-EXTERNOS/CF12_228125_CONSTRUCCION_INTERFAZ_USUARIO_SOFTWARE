@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Construcción de la interfaz de usuario del <em>software</em>',
+    descripcionCurso:
+      'En este componente formativo se trabajarán los temas de interfaces gráficas de usuario, con todos sus conceptos, buenas prácticas y como entorno visual de imágenes y objetos donde se da una interacción productiva, así como también el tema de experiencia de usuario que se enfoca, sobre todo, en páginas web y aplicaciones móviles, como un concepto clave dentro del entorno digital.',
+
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +14,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -32,14 +42,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Lenguajes de programación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'HTML',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'CSS',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'JavaScript',
+            hash: 't_1_3',
           },
         ],
       },
@@ -48,14 +70,28 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Tecnologías de programación, <em>frameworks</em> y librerías',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Codificación en lenguajes de programación',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Estilo de codificación',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Experiencia de usuario',
         desarrolloContenidos: true,
       },
     ],
@@ -101,32 +137,103 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Lenguajes de programación',
+      referencia:
+        'EDteam. (2020). <em>Tipos de lenguajes de programación</em> [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=gFMMmi-EYEM',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'HTML',
+      referencia:
+        'Fazt. (2018). <em>Curso HTML para principiantes</em> [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=rbuYtrNUxg4',
+    },
+    {
+      tema: 'CSS',
+      referencia:
+        'HolaMundo. (2021). ¡Aprende CSS ahora! Curso completo GRATIS desde cero [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=wZniZEbPAzk',
+    },
+    {
+      tema: 'JavaScript',
+      referencia:
+        'Fazt. (2018). <em>Curso Javascript para Principiantes</em> [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=RqQ1d1qEWlE',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Block',
+      significado:
+        'indica que los elementos estarán organizados en una línea vertical uno abajo del otro, es decir, de esa forma los interpreta el navegador.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'CSS',
+      significado:
+        'son las siglas que, en español, significa hoja de estilos en cascada y complementa las páginas web, dando estilo y forma.',
+    },
+    {
+      termino: 'DOCTYPE',
+      significado:
+        'es la etiqueta que se coloca al inicio de una página HTML para decirle al navegador cómo va a interpretar la página siendo HTML5.',
+    },
+    {
+      termino: 'Inline',
+      significado:
+        'indica que los elementos estarán organizados en una línea horizontal uno al lado del otro, es decir, de esa forma los interpreta el navegador.',
+    },
+    {
+      termino: 'Parámetro',
+      significado: 'especifica el tipo de dato que recibirá un método.',
+    },
+    {
+      termino: 'PHP',
+      significado:
+        'es un lenguaje de programación del lado del servidor. que permite la comunicación de la web con servidores de datos o persistencia.',
+    },
+    {
+      termino: 'React',
+      significado:
+        'está escrito en código abierto en JavaScript, muy útil para construir las interfaces de usuario.',
+    },
+    {
+      termino: 'Responsive',
+      significado:
+        'propiedad que indica que la página se adapta a todas las pantallas de los diferentes dispositivos donde se revise.',
+    },
+    {
+      termino: 'Script',
+      significado:
+        'es un pedazo de código JavaScript creado para ejecutar cierta función o procedimiento.',
+    },
+    {
+      termino: 'Selector',
+      significado:
+        'es la forma como se selecciona o indica a cuál elemento HTML se le va a aplicar las reglas CSS escritas.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Campaña Haro, M. N., y Martillo Vásquez, E. L. (2020). <em>Análisis, estudio y prototipo de la aplicación de experiencia de usuario (UX) en el desarrollo de la interfaz gráfica de usuario de la plataforma e integración con componentes del sistema del proyecto FCI temonet fase II de la Universidad de Guayaquil</em> (Proyecto de titulación, Universidad de Guayaquil, Guayaquil). Repositorio UG.',
+      link:
+        'http://repositorio.ug.edu.ec/bitstream/redug/52257/1/B-CINT-PTG-N.%20612%20Campa%C3%B1a%20Haro%20Michelle%20Nydia%20.%20Martillo%20V%C3%A1squez%20Estefania%20%20Lisset.pdf',
+    },
+    {
+      referencia:
+        'Guapi Auquilla, M. J. (2018). <em>Diseño metodológico para el desarrollo de interfaces gráficas en páginas web utilizando los lenguajes HTML5 y CSS3</em>.',
+      link:
+        'http://dspace.unach.edu.ec/bitstream/51000/5163/1/UNACH-FCEHT-DS%c3%91-GRF-2018-000018.pdf',
+    },
+    {
+      referencia:
+        'Llerena Ocaña, L. A., Fernández Villacres, G. E., Viscaino Naranjo, F. A., y Baño Naranjo, F. P. (2021). <em>Frameworks basados en typescript para el desarrollo de aplicaciones web interactivas. Dilemas contemporáneos: educación, política y valores, 8</em>(3).',
+      link:
+        'https://dilemascontemporaneoseducacionpoliticayvalores.com/index.php/dilemas/article/view/2644/2675',
     },
   ],
   creditos: {

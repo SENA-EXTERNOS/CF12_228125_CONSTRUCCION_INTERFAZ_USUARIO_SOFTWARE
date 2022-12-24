@@ -1,15 +1,38 @@
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
+    position: relative
+    top: 60%
+    left: -20%
+    width: 30%
+    z-index: 1
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: -115%
+    right: 73%
+    width: 30%
+  &-3
+    animation: float1 1.8s ease-in-out infinite alternate
+    position: absolute
+    top: 0%
+    right: 5%
+    width: 30%
+  &-4
+    position: absolute !important
+    top: -121%
+    right: 23%
+    width: 80%
 
+
+.banner-principal__img 
+  width: 30%
+  height: 55%
+  z-index: 1
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner-interno.png") !important
+  bottom: -130px  
 
 @keyframes float1
   0%
@@ -17,3 +40,482 @@
 
   100%
     transform: translateY(0px)
+
+.color-adicional-1
+  background-color: #FD9927 !important
+
+//background para temas  
+.bkg-t1
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -24px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema1/t1-bkg.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+  @media screen and ( max-width: 500px )
+    &::before
+      margin-left: 0px;
+      margin-top: 200px;
+      width: calc( 81% + 96px)  
+
+.bkg-t2
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -24px
+    margin-top: 0
+    width: calc( 105% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema2/t2-bkg.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+  @media screen and ( max-width: 500px )
+    &::before
+      height: 95% 
+      margin-left: 0px;
+      margin-top: 20px;
+      width: calc( 81% + 96px)  
+      background-repeat: repeat     
+
+.bkg-t4
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -24px
+    margin-top: 0
+    width: calc( 105% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema4/t4-bkg.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+  @media screen and ( max-width: 500px )
+    &::before
+      height: 95% 
+      margin-left: 0px;
+      margin-top: 20px;
+      width: calc( 81% + 96px)  
+      background-repeat: repeat  
+
+.bkg-t5
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -24px
+    margin-top: 0
+    width: calc( 105% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema5/t5-bkg.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+  @media screen and ( max-width: 500px )
+    &::before
+      height: 95% 
+      margin-left: 0px;
+      margin-top: 20px;
+      width: calc( 81% + 96px)  
+      background-repeat: repeat 
+
+.bkg-t5-tarjeta
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -24px
+    margin-top: 0
+    width: calc( 105% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema5/t5-bkg-tarjeta.svg')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top 
+  @media screen and ( max-width: 500px )
+    &::before
+      height: 75%;
+      margin-left: -210px;
+      margin-top: 180px;
+      width: calc( 131% + 96px);
+      background-repeat: repeat;  
+
+.bf-t2
+  background-image: url(../assets/curso/temas/tema3/t3-bkg-inferior.svg)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom 
+//custom para bloque-texto-g--------------
+//------tema1--------------------  
+.b1.bloque-texto-g
+  height: 270px
+  @media screen and ( max-width: 500px )
+    height: auto
+.b1.bloque-texto-g__img
+  height: 270px
+
+.b2.bloque-texto-g
+  @media screen and ( max-width: 500px )
+    height: 200px !important
+.b2.bloque-texto-g__img
+  width: 60%
+  @media screen and ( max-width: 500px )
+    width: 100%
+
+.b3.bloque-texto-g__texto
+  left: 20px
+  position: relative
+  width: 75% !important
+  background-color: rgba(255, 255, 255, 0.95);
+  height: 300px
+  @media screen and ( max-width: 500px )
+    width: 100% !important
+    height: auto
+    left: 0px
+.b3.bloque-texto-g__img
+  width: 55%   
+  @media screen and ( max-width: 500px )
+    width: 100%
+
+.b4.bloque-texto-g__texto
+  right: 400px
+  position: relative
+  width: 60%
+  background-color: rgba(255, 255, 255, 0.95)
+  @media screen and ( max-width: 500px )
+    height: 500px;
+    top: 30px;
+    width: 100% !important;
+    right: 0px;
+.b4.bloque-texto-g__img
+  width: 60%
+  position: absolute
+  top: 0
+  left: 420px
+  bottom: 0
+  background-position: center
+  background-size: cover
+  @media screen and ( max-width: 500px )
+    top: 0px;
+    width: 135%;
+    left: -120px;
+    height: 270px;
+
+@media screen and ( max-width:500px  )
+  .b4.bloque-texto-g
+    height: 740px;     
+//--------------------------------------   
+
+//custom para cajon punto caliente------------
+.estilo-cajon
+  background-color: #FEEAAD
+
+.img-infografica.color-acento-botones .img-infografica__item__numero
+  color: #000000
+  font-size: x-large
+  @media screen and ( max-width: 500px )
+    font-size: initial
+//---------------------------------------------------   
+
+//custom tarjeta avatar-----------------  
+.t1.tarjeta-avatar
+  width: 95%
+  height: 90%
+  > img
+    width: 40%
+    top: 20px
+  @media ( max-width: 500px )
+    width: 80%
+    height: 100%
+    left: 10%
+    * p
+      margin-top: 60px
+      margin-bottom: 0px  
+
+.t2.tarjeta-avatar
+  width: 90% !important
+  height: 95% !important
+  > img
+    width: 35% !important
+    top: 20px
+  @media ( max-width: 500px )
+    width: 80%
+    height: 100%
+    left: 10%
+    * p
+      margin-top: 60px
+      margin-bottom: 0px       
+
+.tarjeta--amarilla-1
+  background-color: #0B5999
+
+.t1.tarjeta-avatar-b
+  width: 100%
+  height: 75%
+  @media ( max-width: 500px )
+    width: 100%
+    height: 85%
+    left: 10%
+    * p
+      margin-top: 10px
+      margin-bottom: 0px  
+.t1.tarjeta-avatar-b__img
+  min-width: 20%;
+  max-width: 50%; 
+  width: 40%  
+  
+     
+
+.tarjeta--amarilla-2
+  background-color: #a9d6fd
+
+.bkg-carrusel
+  border-radius: 30px !important
+  width: 270px !important
+  height: 320px
+  background-color: #0B5999
+  @media screen and ( max-width: 500px )
+    left: 15px
+    position: relative
+
+.tarjeta-hoover
+  border-radius: 30px !important
+  width: 310px !important
+  height: 320px
+  background-color: #0B5999
+  @media screen and ( max-width: 500px )
+    left: 15px
+    position: relative
+
+.tarjeta--boton.color-acento-botones:hover *
+    color: #000 !important
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+  @media screen and ( max-width: 500px )
+    left: 30px;
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: $color-acento-contenido
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em    
+
+.tarjeta
+  width: 100%
+//------------------------------------     
+
+//negrilla para titulos de TabsC Activos-----
+.tabs-c__tab--active
+  font-weight: bold
+  border-bottom: 4px solid !important
+//--------------------------------------------    
+
+//cajon texto color
+.cajon-texto
+  background-color: #0D4AAD
+  color: #ffffff  !important
+  left: 25px
+  @media screen and ( max-width: 500px )
+    left: 0px
+    top: -30px
+
+.cajon-texto2
+  background-color: #afe8de !important
+  color: #000000  !important
+  left: 25px
+  @media screen and ( max-width: 500px )
+    left: 0px
+    top: -10px !important
+
+.cajon-texto3
+  background-color: #ffffff !important
+  color: #000000  !important
+  left: 25px
+  @media screen and ( max-width: 500px )
+    left: 0px
+    top: -30px  
+
+.cajon-texto4
+  background-color: #e9f6fe !important
+  color: #000000  !important
+  left: 25px
+  @media screen and ( max-width: 500px )
+    left: 0px
+    top: -10px !important  
+
+.img-cajon
+  left: -64px
+  max-width: 500%
+  width: 150%
+  top: -10px
+  position: relative
+  @media screen and ( max-width: 500px )
+    width: 100%
+    top: 0px
+    left: 0px
+
+.img-cajon2
+  left: -45px !important
+  max-width: 500%;
+  width: 265% !important
+  top: 11px !important
+  position: relative
+  @media screen and ( max-width: 500px )
+    width: 120% !important
+    top: 0px !important
+    left: -30px !important
+    margin-bottom: -100px
+
+.img-cajon3
+  left: -13px
+  max-width: 500%
+  width: 160%
+  top: -55px
+  position: relative
+  @media screen and ( max-width: 500px )
+    width: 155% !important;
+    top: -70px !important;
+    left: -59px !important;
+    margin-bottom: -100px;    
+       
+  
+
+
+//-----------------------------------------------
+
+//custom tarjeta descarga
+.color-descarga
+  background: #baefe6
+.icono
+  position: relative
+  left: 10%
+  width: 100px
+  @media ( max-width: 500px )
+    width: 100px
+
+.tamano-vineta
+  font-size: 8px  
+.color-boton
+  background-color: #feca2e
+.tamano-vineta2
+  font-size: 8px 
+  color: #feca2e
+//----------------------------    
+
+//bloque de texto de color---------------------
+.bloque-texto-1
+  position: relative
+  padding-bottom: 50px
+  &:before
+    height: 35%
+    content: ''
+    position: absolute
+    top: 16px
+    left: 106px
+    right: 0px
+    bottom: 0
+    background-color: #ffedb6
+  &__texto
+    position: relative
+  @media ( max-width: 500px )
+    &:before
+      top: 25px
+      right: 0px    
+
+.bloque-texto-2
+  position: relative
+  padding-bottom: 50px
+  &:before
+    height: 35%
+    content: ''
+    position: absolute
+    top: -10px
+    left: 106px
+    right: 0px
+    bottom: 0
+    background-color: #baefe6
+  &__texto
+    position: relative
+  @media ( max-width: 500px )
+    &:before
+      top: -5px
+      right: 0px   
+//-------------------------------------------
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #F6F6F6 
+
+.acordion__accion__btn--a
+  background-color: #ffffff !important
+
+.acordion__activo
+  background-color: #def7f3  !important
+
+.fa-minus:before
+  color: #21CBAE
+
+.fa-plus:before
+  color: #21CBAE 
+//--------------------------------------------------------------------    
+
+//custom para cajones de colores------------------------- 
+.cajon-color1
+  background-color: #ffeeba
+.cajon-color1:before
+  background-color: #fecb2f         
+//-------------------------------------------  
+
+//---tema tarjeta t3
+.tarjeta--verde
+  background-color: #e9f6fe;
+
+.slyder-a__tipo-b .slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #21cbae
+//-----------------------------
+
+//custom tablas---------------------
+.tabla-a table
+  min-width: 470px
+
+.espacio.tabla-a th, .espacio.tabla-a td
+  padding: 0.55em;  
+
+.tabla-a th
+  background-color: #ecf2f9
+
+table *
+  background-color: #ffffff
+//---------------------------------------  
