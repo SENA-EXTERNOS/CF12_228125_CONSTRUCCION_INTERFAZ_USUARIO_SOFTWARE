@@ -85,39 +85,29 @@
           p Las variables declaradas en cada lenguaje de programación, al igual que en JavaScript, deben identificarse con nombres únicos denominados identificadores.
           p Los identificadores pueden ser nombres cortos (como x o y) o nombres más descriptivos (edad, suma, volumen total).
 
-    .row.my-5
-      SlyderF(columnas="col-lg-6 col-xl-4" data-aos="fade-down-left")
-        .tarjeta.bkg-carrusel.p-4.text-white.text-center
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema3/t3-6.svg' alt='AvatarTop')
-          p Los nombres pueden contener letras, dígitos, guiones bajos y signos de dólar.
+    .row.justify-content-center.mt-5
+      SlyderF(columnas="col-lg-6 col-xl-4").text-center
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema3/t3-6.svg' alt='AvatarTop')
+          .tarjeta.tarjeta-color.p-4
+            p Los nombres pueden contener letras, dígitos, guiones bajos y signos de dólar.
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema3/t3-6.svg' alt='AvatarTop')
+          .tarjeta.tarjeta-color.p-4
+            p Los nombres deben comenzar con una letra.     
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema3/t3-6.svg' alt='AvatarTop')
+          .tarjeta.tarjeta-color.p-4
+            p Los nombres también pueden comenzar con $ y _ (pero no son usados comúnmente y acá tampoco se usarán).
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema3/t3-6.svg' alt='AvatarTop')
+          .tarjeta.tarjeta-color.p-4
+            p Los nombres distinguen entre mayúsculas y minúsculas (z y Z son variables distintas).
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema3/t3-6.svg' alt='AvatarTop')
+          .tarjeta.tarjeta-color.p-4
+            p Las palabras reservadas del sistema o lenguaje no se pueden usar como nombres.
 
-        .tarjeta.bkg-carrusel.p-4.text-white.text-center
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema3/t3-6.svg' alt='AvatarTop')
-          p Los nombres deben comenzar con una letra.
-
-        .tarjeta.bkg-carrusel.p-4.text-white.text-center
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema3/t3-6.svg' alt='AvatarTop')
-          p Los nombres también pueden comenzar con $ y _ (pero no son usados comúnmente y acá tampoco se usarán).
-
-        .tarjeta.bkg-carrusel.p-4.text-white.text-center
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema3/t3-6.svg' alt='AvatarTop')
-          
-          p Los nombres distinguen entre mayúsculas y minúsculas (z y Z son variables distintas).
-
-        .tarjeta.bkg-carrusel.p-4.text-white.text-center
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/curso/temas/tema3/t3-6.svg' alt='AvatarTop')
-          
-          p Las palabras reservadas del sistema o lenguaje no se pueden usar como nombres.
 
     .row.justify-content-center.mt-5
       .col-lg-10

@@ -110,44 +110,46 @@
                 h2 POST
                 p Es una petición donde se envían los datos ocultos, a través de un objeto que será descifrado por el servidor y, de esta manera, se tiene seguridad de la información.   
 
-      .row.justify-content-center.text-center
+      .row.justify-content-center.mt-5.mb-3
         .col-lg-10
           .row
-            .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-              .crd_hover_txt(data-aos="flip-left")
-                .crd_hover_txt--img
-                  figure
-                    img(src="@/assets/curso/temas/tema1/t1-91.svg", alt="alt")
-                .crd_hover_txt--body
-                    h4.mb-3 200
+            .col-sm-6.col-xl-4.mb-4.mb-xl-0
+              .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
+                .indicador--hover(v-if="indicadorTarjetaSlide")
+                .tarjeta-slide__contenedor
+                  .tarjeta-slide__contenido.p-4.p-xl-5
+                    h1 200
                     p La petición solicitada se encuentra con éxito.
+                  .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/t1-9.svg')})`}")
 
-            .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-              .crd_hover_txt(data-aos="flip-left")
-                .crd_hover_txt--img
-                  figure
-                    img(src="@/assets/curso/temas/tema1/t1-10.svg", alt="alt")
-                .crd_hover_txt--body
-                    h4.mb-3 403
+            .col-sm-6.col-xl-4.mb-4.mb-xl-0
+              .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
+                .indicador--hover(v-if="indicadorTarjetaSlide")
+                .tarjeta-slide__contenedor
+                  .tarjeta-slide__contenido.p-4.p-xl-5
+                    h1 403
                     p No se tiene permiso para acceder al recurso solicitado
+                  .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/t1-10.svg')})`}")
 
-            .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-              .crd_hover_txt(data-aos="flip-left")
-                .crd_hover_txt--img
-                  figure
-                    img(src="@/assets/curso/temas/tema1/t1-11.svg", alt="alt")
-                .crd_hover_txt--body
-                  h4.mb-3 404
-                  p El recurso solicitado no está disponible o no se pudo encontrar.
+            .col-sm-6.col-xl-4.mb-4.mb-xl-0
+              .tarjeta.tarjeta-slide.arriba(@mouseover="indicadorTarjetaSlide = false")
+                .indicador--hover(v-if="indicadorTarjetaSlide")
+                .tarjeta-slide__contenedor
+                  .tarjeta-slide__contenido.p-4.p-xl-5
+                    h1 404
+                    p El recurso solicitado no está disponible o no se pudo encontrar.
+                  .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/t1-11.svg')})`}")
 
-    .row.justify-content-center.mt-5
-      .col-lg-12
-        .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
-          .b2.bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/t1-12.svg')})`}"
-          )
-          .bloque-texto-g__texto.p-5
-            p.mb-0 Las primeras páginas web fueron estáticas y rígidas, no permitían la fluidez del contenido, la organización dinámica del mismo o la aplicación de estilos. Debido a esa problemática, en 1994, nace el CSS (hoja de estilos en cascada), lenguaje que se compone de una serie de reglas que permiten dar apariencia a la página web e incluir elementos como: color de la letra, márgenes, el tamaño de los elementos y, también, posibilita la adaptación de las páginas a las diferentes pantallas de los dispositivos, lo que se llama #[b #[i responsive design]].
+
+
+      .row.justify-content-center.mt-5
+        .col-lg-12
+          .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5
+            .b2.bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/t1-12.svg')})`}"
+            )
+            .bloque-texto-g__texto.p-5
+              p.mb-0 Las primeras páginas web fueron estáticas y rígidas, no permitían la fluidez del contenido, la organización dinámica del mismo o la aplicación de estilos. Debido a esa problemática, en 1994, nace el CSS (hoja de estilos en cascada), lenguaje que se compone de una serie de reglas que permiten dar apariencia a la página web e incluir elementos como: color de la letra, márgenes, el tamaño de los elementos y, también, posibilita la adaptación de las páginas a las diferentes pantallas de los dispositivos, lo que se llama #[b #[i responsive design]].
 
     .row.justify-content-center.mt-5(data-aos="zoom-in")
       p HTML5 mejora la versión de HTML, de acuerdo con el avance en las API y en el conjunto de herramientas que conforman la tecnología web; pero, aparte de esto, presenta nuevas características en el lenguaje HTML, las cuales son:
