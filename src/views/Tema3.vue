@@ -73,9 +73,10 @@
         
       .col-lg-8
         .row.p-3.mt-5.ps-3.cajon-texto2
-          p En JavaScript se manejan de igual forma; lo único es que es un lenguaje no tipado y, por eso, no se le debe dar el tipo de dato a la variable, solo utilizar la palabra clave #[b var] para definirla. Por ejemplo: #[b var nombre;] 
+          p En JavaScript se manejan de igual forma; lo único es que es un lenguaje no tipado y, por eso, no se le debe dar el tipo de dato a la variable, solo utilizar la palabra clave #[b var] para definirla. Por ejemplo: 
+          p #[b var nombre;] 
           p La línea anterior crea una variable en JavaScript llamada nombre, la cual podrá almacenar cualquier tipo de dato, pero como las buenas prácticas indican que se deben dar nombres coherentes a las variables, lo ideal es que, si se llama así, guarde un valor de un nombre de una persona.
-          p La palabra clave #[b var], antes de 2015, era la única forma de declarar una variable para JavaScript; pero la nueva versión, después de 2015, permite al lenguaje definir constantes, es decir, variables cuyo valor nunca va a cambiar, dentro de la ejecución de todo el programa y para esto utiliza la palabra clave #[b const]. 
+          p.mb-0 La palabra clave #[b var], antes de 2015, era la única forma de declarar una variable para JavaScript; pero la nueva versión, después de 2015, permite al lenguaje definir constantes, es decir, variables cuyo valor nunca va a cambiar, dentro de la ejecución de todo el programa y para esto utiliza la palabra clave #[b const]. 
 
     .row.justify-content-center.mt-5
       p La otra forma que salió es la palabra clave #[b let] que define una variable con alcance restringido.
@@ -86,6 +87,7 @@
           p Los identificadores pueden ser nombres cortos (como x o y) o nombres más descriptivos (edad, suma, volumen total).
 
     .row.justify-content-center.mt-5
+      p Existen reglas generales para construir nombres de variables (identificadores únicos) que son:
       SlyderF(columnas="col-lg-6 col-xl-4").text-center
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema3/t3-6.svg' alt='AvatarTop')

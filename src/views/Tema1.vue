@@ -44,8 +44,10 @@
             p #[i Hypertext Markup Language (Lenguaje de marcas de hipertexto)]
             p El lenguaje de marcado de hipertexto es el que permite escribir la estructura de una página web, dando recursos de maquetación como listas, párrafos, viñetas, etc.
           .tarjeta.estilo-cajon.p-3(x="69.4%" y="88.5%" numero="4")
+            p Servidor web HTTP
             p Es el programa que se encarga de gestionar las peticiones con los navegadores: tanto de recibirlas, como de responderlas.
           .tarjeta.estilo-cajon.p-3(x="89%" y="13.5%" numero="5")
+            p Alojamiento web
             p Es el hosting, el cual corresponde a un equipo conectado a la red, que tiene una configuración específica y una serie de programas instalados, entre ellos un servidor web.                                           
 
     .row.justify-content-center.mt-5
@@ -91,6 +93,7 @@
 
       .row.justify-content-center
         p Cuando los navegadores acceden a una página web, lo hacen a través de #[b http], como se había dicho anteriormente; en esa comunicación con el servidor, se descompone la URL en diferentes partes: una parte es el host que es la dirección de la máquina y, la otra, el #[i path] o la ruta del recurso al que se quiere acceder.
+        p Existen técnicas eficientes que pueden enviar los datos a un servidor o navegador, cuando se crea una petición por parte del usuario; por ahora, vamos a explicar dos de ellas:
 
         .col-lg-6.mt-4
           .t1.tarjeta-avatar-b.mb-5
@@ -111,6 +114,7 @@
                 p Es una petición donde se envían los datos ocultos, a través de un objeto que será descifrado por el servidor y, de esta manera, se tiene seguridad de la información.   
 
       .row.justify-content-center.mt-5.mb-3
+        p.mb-4 Cuando se hace una petición, se pueden obtener varios mensajes como respuesta; puede ser desde una respuesta exitosa, hasta una de error.
         .col-lg-10
           .row
             .col-sm-6.col-xl-4.mb-4.mb-xl-0
@@ -255,7 +259,7 @@
         
     .row.justify-content-center.mt-5
       p Al observar la imagen anterior se ve la etiqueta enlace de HTML que es la que permite relacionar el archivo externo de CSS a través de su propiedad #[b href].
-      p #[b href] solicita la URL donde se encuentra el archivo externo a relacionar; se debe tener presente que esa dirección debe estar dentro de la carpeta de proyecto, para que no se presente ningún error al momento de subir el proyecto al #[i hosting].
+      p #[b Href] solicita la URL donde se encuentra el archivo externo a relacionar; se debe tener presente que esa dirección debe estar dentro de la carpeta de proyecto, para que no se presente ningún error al momento de subir el proyecto al #[i hosting].
       .col-lg-10.mt-3
         .tarjeta.color-descarga.p-4
           .row.justify-content-around.align-items-center
@@ -281,6 +285,9 @@
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2.mt-3 1.3 JavaScript
+
+    .row
+      p JavaScript es un lenguaje de programación interpretado y ligero, se compila en tiempo real (just-in-time) con diferentes tipos de funcionalidades. Su uso más conocido es la programación de script aplicados en entornos web, pero es usado en muchos más entornos como AngularJS, NodeJS, Adobe Acrobat, entre otros.
 
     .row.justify-content-center.mt-4
       .col-lg-12

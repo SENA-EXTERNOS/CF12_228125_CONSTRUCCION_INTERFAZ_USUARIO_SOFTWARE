@@ -34,11 +34,14 @@
         
         img(src="@/assets/curso/temas/tema4/t4-3.svg").mb-3      
 
+    .row.mt-5
+      p En JavaScript, existen tres formas de declarar variables; estas declaraciones son sensibles a mayúsculas y minúsculas.
+    
     .row.justify-content-center.mt-5(data-aos="fade-down-left").text-white
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-acento-botones.p-4.tarjeta-hoover
           .row.justify-content-center.mb-3
-            .col-7
+            .col-5
               figure
                 img(src='@/assets/curso/temas/tema4/t4-4.svg', alt='Texto que describa la imagen')
 
@@ -48,7 +51,7 @@
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-acento-botones.p-4.tarjeta-hoover
           .row.justify-content-center.mb-3
-            .col-7
+            .col-5
               figure
                 img(src='@/assets/curso/temas/tema4/t4-4.svg', alt='Texto que describa la imagen')
 
@@ -59,7 +62,7 @@
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta--boton.color-acento-botones.p-4.tarjeta-hoover
           .row.justify-content-center.mb-3
-            .col-7
+            .col-5
               figure
                 img(src='@/assets/curso/temas/tema4/t4-4.svg', alt='Texto que describa la imagen')
 
@@ -83,10 +86,10 @@
         
         .row.justify-content-center.align-items-center.my-lg-4.p-5
           .col-md-6.mb-4.mb-md-0
-            p La imagen muestra cómo se aplica un if de acuerdo con el valor de la variable mensaje; si su valor es true se muestra el mensaje “Hola Mundo” y de lo contrario se muestra el mensaje “Error”.
+            p La imagen muestra cómo se aplica un #[b if] de acuerdo con el valor de la variable mensaje; si su valor es #[b true] se muestra el mensaje “Hola Mundo” y de lo contrario se muestra el mensaje “Error”.
             p Para continuar, en JavaScript existen diferentes tipos de bucles que se pueden programar, pero, en esta ocasión, se abordarán solo dos, el ciclo mientras y el ciclo para.
-            p La estructura while o mientras, es un ciclo que permite repetir las acciones varias veces, hasta que una condición se cumpla; si la condición se deja de cumplir, el ciclo termina.
-            p Se debe tener muy claro que los dos ciclos el for y el while son repetitivos, pero el for, por ejemplo, se usa cuando se conoce cuántas veces se va a repetir las acciones que estarán dentro de él, mientras que, en el while, no se conoce cuántas veces se va a repetir, sino que se repetirá mientras una condición se siga cumpliendo.
+            p La estructura #[b #[i while]] o mientras, es un ciclo que permite repetir las acciones varias veces, hasta que una condición se cumpla; si la condición se deja de cumplir, el ciclo termina.
+            p Se debe tener muy claro que los dos ciclos el #[b #[i for]] y el #[b #[i while]] son repetitivos, pero el #[b #[i for]], por ejemplo, se usa cuando se conoce cuántas veces se va a repetir las acciones que estarán dentro de él, mientras que, en el #[b #[i while]], no se conoce cuántas veces se va a repetir, sino que se repetirá mientras una condición se siga cumpliendo.
             
           .col-md-6.mt-0
             .titulo-sexto.color-acento-contenido

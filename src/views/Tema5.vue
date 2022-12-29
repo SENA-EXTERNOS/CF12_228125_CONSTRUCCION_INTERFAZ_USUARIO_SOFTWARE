@@ -56,6 +56,8 @@
     .row.justify-content-center.mb-0
       .col-lg-10
         .cajon.cajon-color1.p-4
+          p Por eso, debemos hacer las cosas accesibles. En algunos países, es obligado por la ley proporcionar sitios web accesibles, lo que puede abrir algunos mercados importantes que, de otra manera, no serían capaces de utilizar los servicios o comprar los productos.
+          p Crear sitios web accesibles debe ser lo ideal y beneficia con lo siguiente:        
           ul.lista-ul.ps-5
             li 
               i.fas.fa-circle.tamano-vineta2
