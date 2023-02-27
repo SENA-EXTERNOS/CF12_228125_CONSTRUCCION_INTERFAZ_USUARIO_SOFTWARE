@@ -26,7 +26,7 @@
             p.mb-0 Toda la tecnología web nace con la aparición del internet; en realidad, internet es la unión de dos palabras #[b #[i interconnected]] y #[b #[i network]], lo que quiere decir que es una red global de computadores interconectados entre sí, que permiten compartir información como texto, sonido, imágenes, etc.
 
     .row.justify-content-center.mt-5
-      p Tim Berners Lee, inventor de la #[i World Wide Web] (WWW), fundó el consorcio W3C para estandarizar, supervisar y estar al tanto de las tecnologías basadas en el internet; debido a este procedimiento, se originan los siguientes conceptos:
+      p Tim Berners Lee, inventor de la World Wide Web (WWW), en 1994 fundó el consorcio W3C para estandarizar, supervisar y estar al tanto de las tecnologías basadas en el Internet; debido a este procedimiento, se originan los siguientes conceptos:
       
       .col-lg-10.mt-3
         ImagenInfografica.color-acento-botones
@@ -35,20 +35,20 @@
               img(data-aos="fade-left" src='@/assets/curso/temas/tema1/t1-2.svg', alt='')
 
           .tarjeta.estilo-cajon.p-3(x="10.6%" y="13.5%" numero="1")
-            p #[i Hypertext Transfer Protocol (Protocolo de Transferencia de Hipertextos)]
-            p Es el protocolo de transferencia de hipertexto y es el apoyo que permite la operación de la comunicación entre los dispositivos conectados en la red; por ejemplo, entre computadores de usuarios y los servidores.
+            h5.text-center #[i Hypertext Transfer Protocol] (Protocolo de Transferencia de Hipertextos)
+            p.mb-0 Es el protocolo de transferencia de hipertexto y es el apoyo que permite la operación de la comunicación entre los dispositivos conectados en la red; por ejemplo, entre computadores de usuarios y los servidores.
           .tarjeta.estilo-cajon.p-3(x="30.4%" y="88.5%" numero="2")
-            p #[i Uniform Resource Locator (Localizador de Recursos Uniforme)]
-            p Es el localizador de recursos únicos. Es más conocida como la dirección de un sitio web y es la forma como buscamos un sitio en algún punto de la red, a través de su nombre.
+            h5.text-center #[i Uniform Resource Locator] (Localizador de Recursos Uniforme)
+            p.mb-0 Es el localizador de recursos únicos. Es más conocida como la dirección de un sitio web y es la forma como buscamos un sitio en algún punto de la red, a través de su nombre.
           .tarjeta.estilo-cajon.p-3(x="50%" y="13.5%" numero="3")
-            p #[i Hypertext Markup Language (Lenguaje de marcas de hipertexto)]
-            p El lenguaje de marcado de hipertexto es el que permite escribir la estructura de una página web, dando recursos de maquetación como listas, párrafos, viñetas, etc.
+            h5.text-center #[i Hypertext Markup Language] (Lenguaje de marcas de hipertexto)
+            p.mb-0 El lenguaje de marcado de hipertexto es el que permite escribir la estructura de una página web, dando recursos de maquetación como listas, párrafos, viñetas, etc.
           .tarjeta.estilo-cajon.p-3(x="69.4%" y="88.5%" numero="4")
-            p Servidor web HTTP
-            p Es el programa que se encarga de gestionar las peticiones con los navegadores: tanto de recibirlas, como de responderlas.
+            h5.text-center Servidor web HTTP
+            p.mb-0 Es el programa que se encarga de gestionar las peticiones con los navegadores: tanto de recibirlas, como de responderlas.
           .tarjeta.estilo-cajon.p-3(x="89%" y="13.5%" numero="5")
-            p Alojamiento web
-            p Es el hosting, el cual corresponde a un equipo conectado a la red, que tiene una configuración específica y una serie de programas instalados, entre ellos un servidor web.                                           
+            h5.text-center Alojamiento web
+            p.mb-0 Es a lo que se llama <i>hosting</i> que es un equipo conectado a la red, el cual tiene una configuración específica y una serie de programas instalados, entre ellos un servidor web.                                     
 
     .row.justify-content-center.mt-5
       .col-lg-11
@@ -63,7 +63,7 @@
             | Un navegador es un programa encargado de interpretar el código que se recibe desde el servidor y, luego, exponerlo en un término entendible para que el usuario lo visualice, a través de la página web, con texto, imágenes, etc.
 
     .row.justify-content-center.mb-3.mt-5
-      p Aparte de interpretar y mostrar al usuario la página, algunas de las responsabilidades del navegador son:
+      p Además de interpretar y mostrar al usuario la página, algunas de las responsabilidades del navegador son:
       .col-lg-10
         .row.text-center.text-white
           .col-sm-6.col-lg-4.mb-4.mb-lg-0
@@ -92,7 +92,7 @@
         h2.mt-5 Peticiones HTTP
 
       .row.justify-content-center
-        p Cuando los navegadores acceden a una página web, lo hacen a través de #[b http], como se había dicho anteriormente; en esa comunicación con el servidor, se descompone la URL en diferentes partes: una parte es el host que es la dirección de la máquina y, la otra, el #[i path] o la ruta del recurso al que se quiere acceder.
+        p Cuando los navegadores acceden a una página web, lo hacen a través de <b>http</b>, como se había dicho anteriormente; en esa comunicación con el servidor, se descompone la URL en diferentes partes: una parte es el <i>host</i> que es la dirección de la máquina y, la otra, el <i>path</i> o la ruta del recurso al que se quiere acceder.
         p Existen técnicas eficientes que pueden enviar los datos a un servidor o navegador, cuando se crea una petición por parte del usuario; por ahora, vamos a explicar dos de ellas:
 
         .col-lg-6.mt-4
@@ -153,7 +153,7 @@
               :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/t1-12.svg')})`}"
             )
             .bloque-texto-g__texto.p-5
-              p.mb-0 Las primeras páginas web fueron estáticas y rígidas, no permitían la fluidez del contenido, la organización dinámica del mismo o la aplicación de estilos. Debido a esa problemática, en 1994, nace el CSS (hoja de estilos en cascada), lenguaje que se compone de una serie de reglas que permiten dar apariencia a la página web e incluir elementos como: color de la letra, márgenes, el tamaño de los elementos y, también, posibilita la adaptación de las páginas a las diferentes pantallas de los dispositivos, lo que se llama #[b #[i responsive design]].
+              p.mb-0 Las primeras páginas web fueron estáticas y rígidas, no permitían la fluidez del contenido, la organización dinámica del mismo, o la aplicación de estilos. Debido a esa problemática, en 1994, nace el CSS (hoja de estilos en cascada), lenguaje que se compone de una serie de reglas que permiten dar apariencia a la página web como: color de la letra, márgenes, tamaño de los elementos y, también, posibilita la adaptación de las páginas a las diferentes pantallas de los dispositivos, lo que se llama .#[b #[i responsive design]].
 
     .row.justify-content-center.mt-5(data-aos="zoom-in")
       p HTML5 mejora la versión de HTML, de acuerdo con el avance en las API y en el conjunto de herramientas que conforman la tecnología web; pero, aparte de esto, presenta nuevas características en el lenguaje HTML, las cuales son:
@@ -172,7 +172,7 @@
               p La etiqueta &#60;video> permite incrustar en la página, un video de forma fácil; a través de sus atributos #[b #[i src]] y #[b #[i controls]], se agregan el video y los botones de control para su reproducción.
               p El elemento &#60;audio> funciona de forma similar a la etiqueta &#60;video>, con la diferencia que ocupa menos espacio en la página y no soporta los atributos de #[i width] y #[i height].
               p Otra nueva característica en semántica, se refiere a formularios en HTML5; se incluye nueva API de validación; aparte, atributos nuevos, nuevos valores para la etiqueta #[b #[i input]] con el atributo #[b #[i type]] y #[b #[i output]].
-              p Además de lo anterior, también se incluyen nuevos elementos semánticos que permiten incluir directamente fórmulas matemáticas (MathML), las etiquetas &#60;mark>, &#60;figure>, &#60;data>, &#60;time>, entre otras, y una mejora en el funcionamiento de la etiqueta &#60;iframe>.
+              p Junto con lo anterior, también se incluyen nuevos elementos semánticos que permiten contener directamente fórmulas matemáticas (MathML), las etiquetas &#60;mark>, &#60;figure>, &#60;data>, &#60;time>, entre otras, y una mejora en el funcionamiento de la etiqueta &#60;iframe>.
 
         .py-3.py-md-4(titulo="Conectividad")
           .row.p-4
@@ -194,21 +194,38 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0-p-5
-                  p Lo invitamos a leer los siguientes documentos para ampliar la información sobre la temática que venimos estudiando:
-                  ul.lista-ul.ps-5
-                    li 
-                      i.fas.fa-circle.tamano-vineta
-                      span.ps-3 Estructura del lenguaje HTML5.
-                    li 
-                      i.fas.fa-circle.tamano-vineta
-                      span.ps-3 Etiquetas básicas.
-                    li 
-                      i.fas.fa-circle.tamano-vineta
-                      span.ps-3 Formularios.             
-                .col-sm-auto
-                  a.boton.color-boton(:href="obtenerLink('/downloads/Anexo1.zip')" target="_blank")
-                    span Enlace web
-                    i.fas.fa-link
+                  p.mb-5 Lo invitamos a leer los siguientes documentos para ampliar la información sobre la temática que venimos estudiando:
+                  .row.justify-content-center.align-items-center
+                    .col      
+                      ul.lista-ul.ps-5
+                        li 
+                          i.fas.fa-circle.tamano-vineta
+                          span.ps-3 Estructura del lenguaje HTML5.
+                    .col-auto
+                      a.boton.color-boton(:href="obtenerLink('/downloads/Estructura_del_lenguaje_HTML5.pdf')" target="_blank")
+                        span Enlace web
+                        i.fas.fa-link          
+                  .row.justify-content-center.align-items-center.my-4    
+                    .col      
+                      ul.lista-ul.ps-5
+                        li 
+                          i.fas.fa-circle.tamano-vineta
+                          span.ps-3 Etiquetas básicas.
+                    .col-auto
+                      a.boton.color-boton(:href="obtenerLink('/downloads/Etiquetas_basicas.pdf')" target="_blank")
+                        span Enlace web
+                        i.fas.fa-link     
+
+                  .row.justify-content-center.align-items-center    
+                    .col      
+                      ul.lista-ul.ps-5
+                        li 
+                          i.fas.fa-circle.tamano-vineta
+                          span.ps-3 Formularios.
+                    .col-auto
+                      a.boton.color-boton(:href="obtenerLink('/downloads/Formularios.pdf')" target="_blank")
+                        span Enlace web
+                        i.fas.fa-link   
  
     separador
     .row.bkg-t1 
@@ -232,8 +249,9 @@
       .row.justify-content-center.mb-5.mt-0
         .col-lg-10
           .titulo-sexto.color-acento-contenido
-            h5 Figura 1.
-            span Estilos embebidos
+            h5 Figura 1
+            br
+            span.fst-italic Estilos embebidos
           
           img(src="@/assets/curso/temas/tema1/t1-17.svg")
 
@@ -252,8 +270,9 @@
     .row.justify-content-center.mb-0.mt-0
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 2.
-          span CSS externo
+          h5 Figura 2
+          br
+          span.fst-italic CSS externo
         
         img(src="@/assets/curso/temas/tema1/t1-19.svg")           
         
@@ -268,26 +287,36 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0-p-5
-                  p Lo invitamos a leer los siguientes documentos para ampliar la información sobre la temática que venimos estudiando:
-                  ul.lista-ul.ps-5
-                    li 
-                      i.fas.fa-circle.tamano-vineta
-                      span.ps-3 Hojas de estilo CSS.
-                    li 
-                      i.fas.fa-circle.tamano-vineta
-                      span.ps-3 Diseño web #[i responsive].
+                  p.mb-5 Con los conceptos anteriores, ya se pueden empezar a observar los estilos CSS y hacer un ejemplo de maquetación de páginas, para lo cual lo invitamos a leer los siguientes documentos:
 
-                .col-sm-auto
-                  a.boton.color-boton(:href="obtenerLink('/downloads/Anexo2.zip')" target="_blank")
-                    span Enlace web
-                    i.fas.fa-link
+                  .row.justify-content-center.align-items-center.mb-4
+                    .col      
+                      ul.lista-ul.ps-5
+                        li 
+                          i.fas.fa-circle.tamano-vineta
+                          span.ps-3 Hojas de estilo CSS.
+                    .col-auto
+                      a.boton.color-boton(:href="obtenerLink('/downloads/Hojas_de_Estilo_CSS.pdf')" target="_blank")
+                        span Enlace web
+                        i.fas.fa-link   
+                        
+                  .row.justify-content-center.align-items-center
+                    .col      
+                      ul.lista-ul.ps-5
+                        li 
+                          i.fas.fa-circle.tamano-vineta
+                          span.ps-3 Diseño web #[i responsive].
+                    .col-auto
+                      a.boton.color-boton(:href="obtenerLink('/downloads/Diseno_Web_Responsive.pdf')" target="_blank")
+                        span Enlace web
+                        i.fas.fa-link                           
 
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2.mt-3 1.3 JavaScript
 
     .row
-      p JavaScript es un lenguaje de programación interpretado y ligero, se compila en tiempo real (just-in-time) con diferentes tipos de funcionalidades. Su uso más conocido es la programación de script aplicados en entornos web, pero es usado en muchos más entornos como AngularJS, NodeJS, Adobe Acrobat, entre otros.
+      p JavaScript es un lenguaje de programación interpretado y ligero, se compila en tiempo real (<i>just-in-time</i>) con diferentes tipos de funcionalidades. Su uso más conocido es la programación de <i>script</i> aplicados en entornos web, pero es usado en muchos más entornos como AngularJS, NodeJS, Adobe Acrobat, entre otros.
 
     .row.justify-content-center.mt-4
       .col-lg-12
@@ -310,10 +339,10 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0-p-5
-                  p.mt-4 Para ampliar la información sobre Canvas, lo invitamos a leer el documento Canvas.
+                  p.mt-4 Para ampliar la información sobre Canvas, lo invitamos a leer el documento <b>Canvas</b>.
 
                 .col-sm-auto
-                  a.boton.color-boton(:href="obtenerLink('/downloads/Canvas.docx')" target="_blank")
+                  a.boton.color-boton(:href="obtenerLink('/downloads/Canvas.pdf')" target="_blank")
                     span Enlace web
                     i.fas.fa-link
 

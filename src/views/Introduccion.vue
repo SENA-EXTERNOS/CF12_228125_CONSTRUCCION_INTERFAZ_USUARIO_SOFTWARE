@@ -10,7 +10,7 @@
       h1 Introducción
 
     .row.justify-content-center
-      p Apreciado aprendiz, bienvenido a este componente formativo donde aprenderá a construir la interfaz gráfica de usuario, con el objetivo de establecer una buena experiencia de usuario al momento de usar la aplicación.
+      p Apreciado aprendiz, bienvenido a este componente formativo, donde aprenderá a construir la interfaz gráfica de usuario, con el objetivo de establecer una buena experiencia de usuario, al momento de usar la aplicación.
       p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
     .row.mt-3

@@ -8,12 +8,12 @@
       h1 Experiencia de usuario
 
     .row.justify-content-center
-      p.mb-3 La experiencia de usuario es un tema muy importante en el desarrollo de software, porque permite definir cómo se sentirá el usuario mientras navega en el sistema o aplicación web. Se trata de hacerle vivir una experiencia agradable para que quiera seguir usando la aplicación, que la pueda usar de una forma sencilla y, sobre todo, que cumpla con las funciones pactadas o por las cuales se creó.   
+      p.mb-3 La experiencia de usuario es un tema muy importante en el desarrollo de software, porque permite definir cómo se sentirá el usuario mientras navega por el sistema o aplicación web. Se trata de hacerle vivir una experiencia agradable para que quiera seguir usando la aplicación, que la pueda usar de una forma sencilla y, sobre todo, que cumpla con las funciones pactadas o por las cuales se creó. 
       .col-8.col-lg-2        
         figure
           img(src='@/assets/curso/temas/tema5/t5-1.svg', alt='' data-aos="fade-down-left").mb-3     
       .col-lg-10
-        p.mt-3 Según la norma ISO 25000, se conoce por usabilidad, la capacidad del producto software para ser entendido, aprendido, usado y resultar atractivo para el usuario, cuando se usa bajo determinadas condiciones. Esta característica se subdivide, a su vez, en las siguientes subcaracterísticas:
+        p.mt-3 Según la norma ISO 25000, se conoce por usabilidad, la capacidad del producto #[i software] para ser entendido, aprendido, usado y resultar atractivo para el usuario, cuando se usa bajo determinadas condiciones. Esta característica se subdivide, a su vez, en las siguientes subcaracterísticas:
 
     .row.bkg-t5
       .row.justify-content-center.mt-5     
@@ -49,15 +49,14 @@
         figure
           img(src='@/assets/curso/temas/tema5/t5-3.svg', alt='').img-cajon3
       .col-lg-8
-        .row.cajon-texto3.p-3.mt-3
-          p También se podría pensar en la accesibilidad como una forma de tratar a todos por igual y darles las mismas oportunidades, sin importar su capacidad o circunstancias. Tal y como es injusto excluir a alguien de un edificio, porque ande en silla de ruedas (generalmente, los edificios públicos modernos tienen rampas o ascensores), tampoco es correcto excluir a alguien de un sitio web porque tenga una discapacidad visual. Todos somos diferentes, pero todos somos humanos y, por lo tanto, tenemos los mismos derechos.
-          p Por eso, debemos hacer las cosas accesibles. En algunos países, es obligado por la ley proporcionar sitios web accesibles, lo que puede abrir algunos mercados importantes que, de otra manera, no serían capaces de utilizar los servicios o comprar los productos.
+        .row.cajon-texto3.p-5.mt-4
+          p También se podría pensar en la accesibilidad como una forma de tratar a todos por igual y darles las mismas oportunidades, sin importar su capacidad o circunstancias. Al igual que es injusto excluir a alguien de habitar en un edificio, porque se movilice por medio de una silla de ruedas (generalmente, los edificios públicos modernos tienen rampas o ascensores), tampoco es correcto excluir a alguien de un sitio web porque tenga una discapacidad visual. Todos somos diferentes, pero todos somos humanos y, por lo tanto, tenemos los mismos derechos.
+          p Por eso debemos lograr que los recursos sean accesibles. En algunos países, es obligado por la ley proporcionar sitios web accesibles, lo que puede abrir algunos mercados importantes que, de otra manera, no serían capaces de utilizar los servicios o comprar los productos.
 
     .row.justify-content-center.mb-0
       .col-lg-10
         .cajon.cajon-color1.p-4
-          p Por eso, debemos hacer las cosas accesibles. En algunos países, es obligado por la ley proporcionar sitios web accesibles, lo que puede abrir algunos mercados importantes que, de otra manera, no serían capaces de utilizar los servicios o comprar los productos.
-          p Crear sitios web accesibles debe ser lo ideal y beneficia con lo siguiente:        
+          p Crear sitios web accesibles debe ser lo ideal, para beneficiar, de acuerdo a lo siguiente:       
           ul.lista-ul.ps-5
             li 
               i.fas.fa-circle.tamano-vineta2

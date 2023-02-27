@@ -22,15 +22,17 @@
     .row.justify-content-center.mt-5
       .col-lg-5
         .titulo-sexto.color-acento-contenido
-          h5 Figura 7.
-          span Comentario de una sola línea
+          h5 Figura 7
+          br
+          span.fst-italic Comentario de una sola línea
         
         img(src="@/assets/curso/temas/tema4/t4-2.svg").mb-3
       .col-lg-2
       .col-lg-5
         .titulo-sexto.color-acento-contenido
-          h5 Figura 8.
-          span Comentario de varias líneas
+          h5 Figura 8
+          br
+          span.fst-italic Comentario de varias líneas
         
         img(src="@/assets/curso/temas/tema4/t4-3.svg").mb-3      
 
@@ -73,15 +75,16 @@
       SlyderA(tipo="b" data-aos="fade-down-left")
         .row.justify-content-center.align-items-center.my-lg-4.p-5
           .col-md-6.mb-4.mb-md-0
-            p Para dar inicio a las estructuras de control, se va a iniciar con los condicionales, estructura que permite controlar el flujo del programa o de la función que se esté realizando.
+            p Para dar inicio a las estructuras de control, se llevará a cabo con los condicionales, estructura que permite controlar el flujo del programa o de la función que se esté realizando.
             p.text-bold.mb-0 If (condición) &#123;
             p.text-bold.mt-0.mb-0 &#125; else &#123;
             p.text-bold.mt-0 &#125;
             p La sintaxis es la anterior, donde se puede ver que se aplica igual que en los lenguajes como #[b php] o Java. A continuación, un ejemplo de su uso.
           .col-md-6
             .titulo-sexto.color-acento-contenido
-              h5 Figura 9.
-              span Estructura de control if         
+              h5 Figura 9
+              br
+              span.fst-italic Estructura de control #[b if]         
             img(src='@/assets/curso/temas/tema4/t4-5.svg', alt='Texto que describa la imagen').mt-3
         
         .row.justify-content-center.align-items-center.my-lg-4.p-5
@@ -93,8 +96,9 @@
             
           .col-md-6.mt-0
             .titulo-sexto.color-acento-contenido
-              h5 Figura 10.
-              span Estructura while infinita        
+              h5 Figura 10
+              br
+              span.fst-italic Estructura #[b while] infinita        
             img(src='@/assets/curso/temas/tema4/t4-6.svg', alt='Texto que describa la imagen').mt-3     
 
         .row.justify-content-center.align-items-center.my-lg-4.p-5
@@ -105,15 +109,16 @@
 
           .col-md-6.mt-0
             .titulo-sexto.color-acento-contenido
-              h5 Figura 11.
-              span Estructura while correcta       
+              h5 Figura 11
+              br
+              span.fst-italic Estructura #[b while] correcta       
             img(src='@/assets/curso/temas/tema4/t4-7.svg', alt='Texto que describa la imagen').mt-3  
 
         .row.justify-content-center.align-items-center.my-lg-4.p-5
           .col-md-6.mb-4.mb-md-0
             p Como se puede observar, el código anterior en la línea 5 hace que la variable veces aumente de uno en uno, cada vez que da un giro el ciclo y, así, en algún momento, llegará a no cumplir la condición de veces < 7 y, en ese momento, el ciclo termina.
 
-            p El siguiente ciclo es el for. Este ciclo es repetitivo, pero se conoce cuántas veces se va a repetir las acciones que están dentro de él, 5 veces, 6 veces, 15 veces o N veces si el usuario es el encargado de determinar las veces que se repetirá.
+            p El siguiente ciclo es el #[b #[i for]], ciclo que es reiterativo, y se conoce cuántas veces se van a repetir las acciones que están dentro de él, sean 5 veces, 6 veces, 15 veces o N veces, y si el usuario es el encargado de determinar las veces que se repetirá.
 
             p.mb-0.text-bold for(inicializacion; condicion; actualizacion) &#123;
 
@@ -123,13 +128,14 @@
 
           .col-md-6.mt-0
             .titulo-sexto.color-acento-contenido
-              h5 Figura 12.
-              span Estructura ciclo for       
+              h5 Figura 12
+              br
+              span.fst-italic Estructura ciclo #[b for]      
             img(src='@/assets/curso/temas/tema4/t4-8.svg', alt='Texto que describa la imagen').mt-3       
           
         .row.justify-content-center.align-items-center.my-lg-4.p-5
           .col-md-6.mb-4.mb-md-0
-            p La sintaxis del for es la anterior; en el paréntesis se configura y tiene tres parámetros, la inicialización que indica la variable de control en qué valor inicia; normalmente, la variable de control es #[b i] o #[b j], e inicia en cero. El segundo parámetro es la condición, es decir, hasta donde va ir la variable y el tercer parámetro es la actualización o incremento, cada giro del ciclo cuánto va a incrementar la variable de control.
+            p La sintaxis del #[b #[i for]] es la anterior; en el paréntesis, se configura y contiene tres parámetros: la inicialización que indica la variable de control y en qué valor inicia; normalmente, la variable de control es #[b i] o #[b j], e inicia en cero; el segundo parámetro, es la condición, es decir, hasta adónde va a ir la variable y, el tercer parámetro, es la actualización o el incremento, o sea, cada giro del ciclo, cuánto va a incrementar la variable de control.
 
             p.text-bold.mb-0 for (var i = 0; i < 5; i++) &#123;
 
@@ -142,15 +148,17 @@
 
           .col-md-6.mt-0
             .titulo-sexto.color-acento-contenido
-              h5 Figura 12.
-              span Estructura ciclo for       
+              h5 Figura 12
+              br
+              span.fst-italic Estructura ciclo #[b for]       
             img(src='@/assets/curso/temas/tema4/t4-8.svg', alt='Texto que describa la imagen').mt-3   
 
         .row.justify-content-center.align-items-center.my-lg-4.p-5
           .col-md-6.mt-0
             .titulo-sexto.color-acento-contenido
-              h5 Figura 12.
-              span Estructura ciclo for       
+              h5 Figura 12
+              br
+              span.fst-italic Estructura ciclo #[b for]    
             img(src='@/assets/curso/temas/tema4/t4-8.svg', alt='Texto que describa la imagen').mt-3   
 
           .col-md-6.mb-4.mb-md-0

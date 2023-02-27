@@ -72,12 +72,12 @@
           img(src='@/assets/curso/temas/tema2/t2-4.svg', alt='').img-cajon
       .col-lg-8
         .row.cajon-texto.p-5.text-white.mt-4
-          p El concepto de framework no es de uso exclusivo de la tecnología web, del desarrollo de sus aplicaciones; también se puede encontrar en aplicaciones de realidad aumentada, de inteligencia artificial y de escritorio. Es decir, es una estructura compuesta por componentes reutilizables e intercambiables, durante el proceso de desarrollo de una aplicación.
-          p Existen varios tipos de frameworks web: orientados a la interfaz de usuario, como Java Server Faces; orientados a aplicaciones de publicación de documentos, como Cocoon; orientados a la parte de control de eventos, como Struts, y algunos que incluyen varios elementos, como Tapestry. 
+          p El concepto de <i>framework</i> no es de uso exclusivo de la tecnología web o del desarrollo de sus aplicaciones; también se puede encontrar en aplicaciones de realidad aumentada, de inteligencia artificial y de escritorio. Es decir, es una estructura conformada por componentes reutilizables e intercambiables, durante el proceso de desarrollo de una aplicación.
+          p Existen varios tipos de <i>frameworks</i> web: orientados a la interfaz de usuario, como Java Server Faces; orientados a aplicaciones de publicación de documentos, como Cocoon; orientados a la parte de control de eventos, como Struts, y algunos que incluyen varios elementos, como Tapestry.  
           p.mb-0 La mayoría de frameworks web se encargan de ofrecer una capa de controladores, de acuerdo con el patrón MVC o con el modelo 2 de Servlets y JSP, ofreciendo mecanismos para facilitar la integración con otras herramientas para la implementación de las capas de negocio y presentación.
 
     .row.justify-content-center.mt-5     
-      p A continuación, algunas características que pueden tener los diferentes frameworks:
+      p A continuación, algunas características que pueden tener los diferentes <i>frameworks</i>:
       .col-lg-8.mt-3
         AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
           .row(titulo="Acceso a datos")

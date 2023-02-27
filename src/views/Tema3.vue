@@ -8,19 +8,20 @@
       h1 Codificación en lenguajes de programación
 
     .row.justify-content-center.mb-0
-      p La nomenclatura de JavaScript indica la forma como se escriben sus variables, es decir, su sintaxis, gramática, cómo se puede aplicar. Este tema, en concreto, será detallado más adelante, cuando se estén estudiando variables, constantes y funciones.
+      p La nomenclatura de JavaScript indica la forma como se escriben sus variables, es decir, su sintaxis, gramática, y cómo sería su aplicación. Este tema, en concreto, será detallado más adelante, cuando se estén estudiando variables, constantes y funciones.
 
-    .row.justify-content-center.mt-3
-      .col-lg-12
-        .b4.bloque-texto-g.color-secundario.p-4.p-sm-4.p-md-5
-          .b4.bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/t3-1.svg')})`}"
-          )
-          .b4.bloque-texto-g__texto.p-3
-            p.mb-0 En JavaScript existen los gestores de paquetes, los cuales se encargan de gestionar las dependencias entre código y liberar así de esta ardua tarea, al programador. Estas herramientas son gestores como Gradle, Maven Ant y su función es encargarse de la instalación, actualización, configuración y eliminación de los diferentes paquetes que necesite el #[i software] para su funcionamiento.
-            br 
+    .row.justify-content-center.align-items-center.mt-3 
+      .col-lg-7.bg.p-5        
+        p En JavaScript existen los gestores de paquetes, los cuales se encargan de gestionar las dependencias entre código y liberar de esta ardua tarea, al programador. Estas herramientas son gestores como Gradle, Maven Ant y su función es la de encargarse de la instalación, actualización, configuración y eliminación de los diferentes paquetes que necesite el <i>software</i>, para su funcionamiento.
+
+        p Las clases en JavaScript permiten la programación orientada a objetos, con sus atributos, sus propiedades, sus constructores y permitiendo de una forma sencilla, la creación de objetos y la implementación de la herencia.
+      .col-lg-5
+        .titulo-sexto.color-acento-contenido
+            h5 Figura 3
             br
-            p.mb-0.mt-0 Las clases en JavaScript permiten la programación orientada a objetos, con sus atributos, sus propiedades, sus constructores y permitiendo de una forma sencilla, la creación de objetos y la implementación de la herencia.
+            span.fst-italic Declaración de clase
+        
+        img(src="@/assets/curso/temas/tema3/1.svg")
 
     .row.justify-content-center.mt-5     
       .col-8.col-lg-2        
@@ -33,31 +34,33 @@
     .row.justify-content-center.mb-0.mt-5
       .col-lg-5
         .titulo-sexto.color-acento-contenido
-          h5 Figura 4.
-          span Ejemplo suma de dos números
+          h5 Figura 4
+          br
+          span.fst-italic Ejemplo suma de dos números
         
         img(src="@/assets/curso/temas/tema3/t3-3.svg").mb-3
 
       .col-lg-7.cajon-texto4.p-4
-        p La imagen anterior muestra cómo se agrega código que declara tres variables, la de número1 y número2, se les asigna un valor y después se hace la operación para guardar el resultado en la variable resultante.
+        p En la imagen anterior, se muestra cómo se agrega el código que declara tres variables: la de número 1 y la de número 2, a las que se les asigna un valor y después se realiza la operación, para guardar el efecto, en la variable resultante.
         p Si se supone que esta acción se debe hacer varias veces en diferentes partes del código, entonces, se estaría siempre agregando 8 líneas de código y no sería muy óptimo dejar tal cantidad de código, cuando se puede optimizar, usando una función. Se deberá crear una función que haga la respectiva suma y muestre el resultado.
 
     .row.justify-content-center.mb-0.mt-3
       .col-lg-5
         .titulo-sexto.color-acento-contenido
-          h5 Figura 5.
-          span Usando función suma
+          h5 Figura 5
+          br
+          span.fst-italic Usando función suma
         
         img(src="@/assets/curso/temas/tema3/t3-4.svg").mb-3
 
       .col-lg-7.cajon-texto4.p-4
-        p La imagen anterior muestra el funcionamiento de una función, pero se debe explicar su sintaxis.
+        p La imagen anterior, muestra el funcionamiento de una función, pero se debe explicar su sintaxis.
         p.mb-0.text-bold funtion nombre_funcion ( argumentos ) &#123;
         p.mb-0.mt-0.text-bold &#125;
 
-        p La sintaxis de una función es la que se mostró anteriormente, es decir, se declara con la palabra clave #[b function], se le asigna un nombre y, entre los paréntesis, van los argumentos o los parámetros de entrada que recibe; recuerde que una función puede necesitar parámetros de entrada o puede funcionar sin ellos, de acuerdo con la necesidad y el contexto.
+        p La sintaxis de una función, como se mostró anteriormente, es decir, se declara con la palabra clave <b><i>function</i></b>, se le asigna un nombre y, entre los paréntesis, van los argumentos o los parámetros de entrada que recibe; recuerde que una función puede necesitar parámetros de entrada o puede funcionar sin ellos, de acuerdo con la necesidad y el contexto.
 
-        p Después de explicar la sintaxis, todas las funciones se crean de la misma forma y, por eso, en el ejemplo de la imagen, se creó la función suma, la cual suma los dos números, los guarda en la variable resultado y genera un mensaje emergente con una ventana de diálogo para mostrar su resultado a través de la palabra clave #[b alert].
+        p Después de explicar la sintaxis, todas las funciones se crean de la misma forma y, por eso, en el ejemplo de la imagen, se creó la función suma, la cual suma los dos números, los guarda en la variable resultado y genera un mensaje emergente, con una ventana de diálogo, para mostrar su resultado a través de la palabra clave #[b alert].
 
     .titulo-segundo.color-acento-botones(data-aos="fade-left")
       h2.mt-5 Variables
@@ -65,18 +68,15 @@
     .row.justify-content-center
       p Las variables, en programación, son espacios en memoria que se identifican a través de un nombre dado y permiten guardar un valor de un tipo de dato dado.
 
-    .row.justify-content-center
-      .col-lg-2.col-10
-        figure
-          img(src='@/assets/curso/temas/tema3/t3-5.svg', alt='').img-cajon2
-      .col-lg-2.cajon-texto2.mt-5
-        
+    .row.justify-content-center.align-items-center.my-5
+      .col-lg-4
+        img.img-a.img-t(src='@/assets/curso/temas/tema3/t3-5.svg', alt='')
       .col-lg-8
-        .row.p-3.mt-5.ps-3.cajon-texto2
-          p En JavaScript se manejan de igual forma; lo único es que es un lenguaje no tipado y, por eso, no se le debe dar el tipo de dato a la variable, solo utilizar la palabra clave #[b var] para definirla. Por ejemplo: 
+        .row.p-3.mt-5.p-4.cajon-texto2
+          p En JavaScript es lo mismo y se manejan de igual forma; lo único es que es un lenguaje no tipado y por eso, no se le debe dar el tipo de dato a la variable, solo utilizar la palabra clave #[b var] para definirla. Por ejemplo: 
           p #[b var nombre;] 
-          p La línea anterior crea una variable en JavaScript llamada nombre, la cual podrá almacenar cualquier tipo de dato, pero como las buenas prácticas indican que se deben dar nombres coherentes a las variables, lo ideal es que, si se llama así, guarde un valor de un nombre de una persona.
-          p.mb-0 La palabra clave #[b var], antes de 2015, era la única forma de declarar una variable para JavaScript; pero la nueva versión, después de 2015, permite al lenguaje definir constantes, es decir, variables cuyo valor nunca va a cambiar, dentro de la ejecución de todo el programa y para esto utiliza la palabra clave #[b const]. 
+          p La línea anterior crea una variable en JavaScript llamada #[b nombre], la cual podrá almacenar cualquier tipo de dato, pero como las buenas prácticas indican que se deben dar nombres coherentes a las variables, lo ideal es que, si se llama de esta manera, guarde un valor de un nombre de una persona.
+          p.mb-0 La palabra clave #[b var], antes del 2015, era la única forma de declarar una variable para JavaScript; pero la nueva versión, después del 2015, permite al lenguaje definir constantes, es decir, variables cuyo valor nunca va a cambiar, dentro de la ejecución de todo el programa y para esto se utiliza la palabra clave #[b const]. 
 
     .row.justify-content-center.mt-5
       p La otra forma que salió es la palabra clave #[b let] que define una variable con alcance restringido.
@@ -139,8 +139,9 @@
 
           .col-md-6
             .titulo-sexto.color-acento-contenido
-              h5 Tabla 1.
-              span Operadores JavaScript          
+              h5 Tabla 1
+              br
+              span.fst-italic Operadores JavaScript          
             .tabla-a.color-acento-contenido
               table.text-center
                 thead
@@ -175,8 +176,9 @@
             p Estos operadores también se pueden conjugar con el de asignación y escribirse de la siguiente manera:
           .col-md-6.mb-4.mb-md-0
             .titulo-sexto.color-acento-contenido
-              h5 Tabla 2.
-              span Operadores de asignación          
+              h5 Tabla 2
+              br
+              span.fst-italic Operadores de asignación          
             .tabla-a.color-acento-contenido 
               table.text-center
                 thead
@@ -220,8 +222,9 @@
 
           .col-md-6
             .titulo-sexto.color-acento-contenido
-              h5 Tabla 3.
-              span Operadores de comparación          
+              h5 Tabla 3
+              br
+              span.fst-italic Operadores de comparación          
             .tabla-a.color-acento-contenido 
               table.text-center
                 thead
@@ -268,8 +271,9 @@
     .row.justify-content-center.mb-0.mt-3
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          h5 Figura 6.
-          span Sintaxis de constantes
+          h5 Figura 6
+          br
+          span.fst-italic Sintaxis de constantes
         
         img(src="@/assets/curso/temas/tema3/t3-8.svg").mb-3
 

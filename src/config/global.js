@@ -231,7 +231,7 @@ export default {
     },
     {
       referencia:
-        'Llerena Ocaña, L. A., Fernández Villacres, G. E., Viscaino Naranjo, F. A., y Baño Naranjo, F. P. (2021). <em>Frameworks basados en typescript para el desarrollo de aplicaciones web interactivas. Dilemas contemporáneos: educación, política y valores, 8</em>(3).',
+        'Llerena Ocaña, L. A., Fernández Villacres, G. E., Viscaino Naranjo, F. A. & Baño Naranjo, F. P. (2021). Frameworks basados en typescript para el desarrollo de aplicaciones web interactivas. <i>Dilemas contemporáneos: educación, política y valores,</i> 8(3). ',
       link:
         'https://dilemascontemporaneoseducacionpoliticayvalores.com/index.php/dilemas/article/view/2644/2675',
     },
