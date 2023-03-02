@@ -26,7 +26,7 @@
     .row.justify-content-center.mt-5     
       .col-8.col-lg-2        
         figure
-          img(src='@/assets/curso/temas/tema3/t3-2.svg', alt='' data-aos="fade-down-left").mb-3     
+          img(src='@/assets/curso/temas/tema3/2.svg', alt='' data-aos="fade-down-left").mb-3     
       .col-lg-10
         p Las funciones son útiles en el proceso de desarrollo de aplicaciones web, donde una y otra vez se repiten las mismas instrucciones en varias partes del desarrollo. Por ejemplo, si se está haciendo una tienda virtual, siempre se debe estar calculando el precio de los productos, añadiendo los impuestos necesarios y los gastos de envío; para este proceso es posible utilizar un script.
         p Un ejemplo sencillo para determinar cómo se escribe una función, es la suma de dos números; en JavaScript, si yo quiero sumar dos números, lo hago como se observa en la imagen.

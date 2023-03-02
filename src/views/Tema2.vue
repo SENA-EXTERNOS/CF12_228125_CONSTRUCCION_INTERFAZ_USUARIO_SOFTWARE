@@ -20,7 +20,7 @@
 
           .tarjeta.estilo-cajon.p-3(x="15%" y="81.5%" numero="1")
             p Es el lenguaje de marca o etiquetas utilizado para la creación de sitios web. Con HTML se realiza la estructura del sitio, su maquetación a través de etiquetas que permiten la organización de contenido. Estas etiquetas son interpretadas por los navegadores para mostrar la estructura, tal cual como fue organizada.
-            p En conclusión, HTML permite a los desarrolladores FrontEnd describir, estructura o maquetar el contenido del sitio web, como es su información a través de párrafos, imágenes, listas, tablas, barras de menú, etc.
+            p En conclusión, HTML permite a los desarrolladores <i>Front-End</i> describir, estructura o maquetar el contenido del sitio web, como es su información a través de párrafos, imágenes, listas, tablas, barras de menú, etc.
 
           .tarjeta.estilo-cajon.p-3(x="45%" y="73.5%" numero="2")
             p CSS es la hoja de estilos en cascada que, como su nombre lo indica, permite agregar estilos o diseño a las páginas web o desarrollo de aplicaciones web. Haciendo una analogía el HTML es como hacer la estructura de la casa y el CC ya permite estucar, colocar baldosa, etc.
@@ -61,7 +61,7 @@
               p.mb-0 React está escrito en código abierto en JavaScript, muy útil para construir las interfaces de usuario. Es una biblioteca, aunque muchos programadores la consideran un framework por la excelencia de sus componentes. Asimismo, admite y combina diferentes idiomas y tecnologías.                         
 
     .titulo-segundo.color-acento-botones(data-aos="fade-left")
-      h2.mt-5 Frameworks
+      h2.mt-5.fst-italic Frameworks
 
     .row.justify-content-center.mb-5
       p Un #[i framework], como se dijo en el ítem anterior, es un marco de trabajo para programar en diferentes lenguajes, usando librerías, buenas prácticas y una forma más sencilla de ejecutar funcionalidades, al reutilizar código. 
@@ -74,7 +74,7 @@
         .row.cajon-texto.p-5.text-white.mt-4
           p El concepto de <i>framework</i> no es de uso exclusivo de la tecnología web o del desarrollo de sus aplicaciones; también se puede encontrar en aplicaciones de realidad aumentada, de inteligencia artificial y de escritorio. Es decir, es una estructura conformada por componentes reutilizables e intercambiables, durante el proceso de desarrollo de una aplicación.
           p Existen varios tipos de <i>frameworks</i> web: orientados a la interfaz de usuario, como Java Server Faces; orientados a aplicaciones de publicación de documentos, como Cocoon; orientados a la parte de control de eventos, como Struts, y algunos que incluyen varios elementos, como Tapestry.  
-          p.mb-0 La mayoría de frameworks web se encargan de ofrecer una capa de controladores, de acuerdo con el patrón MVC o con el modelo 2 de Servlets y JSP, ofreciendo mecanismos para facilitar la integración con otras herramientas para la implementación de las capas de negocio y presentación.
+          p.mb-0 La mayoría de <i>frameworks</i> web se encargan de ofrecer una capa de controladores, de acuerdo con el patrón MVC o con el modelo 2 de Servlets y JSP, ofreciendo mecanismos para facilitar la integración con otras herramientas para la implementación de las capas de negocio y presentación.
 
     .row.justify-content-center.mt-5     
       p A continuación, algunas características que pueden tener los diferentes <i>frameworks</i>:
