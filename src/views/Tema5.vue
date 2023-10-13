@@ -13,7 +13,7 @@
         figure
           img(src='@/assets/curso/temas/tema5/t5-1.svg', alt='' data-aos="fade-down-left").mb-3     
       .col-lg-10
-        p.mt-3 Según la norma ISO 25000, se conoce por usabilidad, la capacidad del producto #[i software] para ser entendido, aprendido, usado y resultar atractivo para el usuario, cuando se usa bajo determinadas condiciones. Esta característica se subdivide, a su vez, en las siguientes subcaracterísticas:
+        p.mt-3 Según la norma ISO 25000, se conoce por usabilidad, la capacidad del producto #[em software] para ser entendido, aprendido, usado y resultar atractivo para el usuario, cuando se usa bajo determinadas condiciones. Esta característica se subdivide, a su vez, en las siguientes subcaracterísticas:
 
     .row.bkg-t5
       .row.justify-content-center.mt-5     
@@ -24,7 +24,7 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Capacidad para reconocer su adecuación")
               .col-12.ps-5
-                p.mb-0 Capacidad del producto que permite al usuario entender si el #[i software] es adecuado para sus necesidades.
+                p.mb-0 Capacidad del producto que permite al usuario entender si el #[em software] es adecuado para sus necesidades.
             .row(titulo="Capacidad de aprendizaje")
               .col-12.ps-5
                 p.mb-0 Capacidad del producto que permite al usuario aprender su aplicación.

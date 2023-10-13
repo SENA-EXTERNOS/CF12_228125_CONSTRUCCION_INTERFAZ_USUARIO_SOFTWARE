@@ -266,7 +266,7 @@
           img(src='@/assets/curso/temas/tema3/t3-7.svg', alt='' data-aos="fade-down-left").mb-3     
       .col-lg-10
         p Con todos los operadores anteriores, se pueden combinar las variables y hacer expresiones aritméticas o usarse en los condicionales como pruebas lógicas para determinar por cual camino seguir, según se cumpla o no, la condición a través del condicional #[b if] y los operadores de comparación.
-        p Ahora, las constantes son nombres que se asignan a espacio en memoria, para guardar un único valor, el cuál no podrá cambiar en ningún momento de la ejecución del #[i software].
+        p Ahora, las constantes son nombres que se asignan a espacio en memoria, para guardar un único valor, el cuál no podrá cambiar en ningún momento de la ejecución del #[em software].
 
     .row.justify-content-center.mb-0.mt-3
       .col-lg-8

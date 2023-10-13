@@ -5,10 +5,10 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero.text-white
         span 2
-      h1 Tecnologías de programación, #[i frameworks] y librerías
+      h1 Tecnologías de programación, #[em frameworks] y librerías
 
     .row.justify-content-center.mb-0
-      p Cuando se habla de tecnologías de programación, se refiere a los lenguajes de programación que se pueden utilizar para el desarrollo de #[i software], así como las diferentes herramientas y #[i frameworks] que se pueden aplicar.
+      p Cuando se habla de tecnologías de programación, se refiere a los lenguajes de programación que se pueden utilizar para el desarrollo de #[em software], así como las diferentes herramientas y #[em frameworks] que se pueden aplicar.
       p Entre estas tecnologías podemos encontrar las siguientes:
 
     .row.justify-content-center
@@ -34,7 +34,7 @@
       h2.mt-5 Tecnologías del lado del servidor
     
     .row.justify-content-center
-      p Las tecnologías del lado del servidor o también llamadas #[i backend] son las que tienen como objetivo implementar los comportamientos que tendrá la web en el servidor; es decir, sus peticiones, cómo se tratan, cómo se consume la capa de datos, etc. 
+      p Las tecnologías del lado del servidor o también llamadas #[em backend] son las que tienen como objetivo implementar los comportamientos que tendrá la web en el servidor; es decir, sus peticiones, cómo se tratan, cómo se consume la capa de datos, etc. 
       p Entre ellas, algunas de las tecnologías para desarrollo web más populares son:
 
     .row.justify-content-center.mt-5     
@@ -51,11 +51,11 @@
               p.mb-0 La popularidad de Python se debe a que, además de tener una gran cantidad de librerías, es totalmente gratis. Asimismo, destaca por su sencillez y potencia, porque usa menos líneas de código que cualquier otro lenguaje de programación, para cualquier aplicación que se ejecute. Esto supone una gran ventaja con respecto a otros tipos de lenguajes de programación y lo convierte, sin duda, en una de las tecnologías web más usadas.
           .row(titulo="<em>Frameworks</em> y librerías")
             .col-12.ps-5
-              p Los lenguajes de programación son importantes, pero, aparte de ellos, existen #[i frameworks] que permiten dar una forma o buenas prácticas sobre cómo trabajar el desarrollo. Son una serie de herramientas y librerías de código ya escrito, que facilitan a los desarrolladores las tareas cotidianas o de uso común, para evitar ejecutarlas desde cero.
-              p Los #[i frameworks] dan un marco de trabajo para programar en un lenguaje y las librerías se encargan de solucionar problemas, haciendo el código más legible. 
+              p Los lenguajes de programación son importantes, pero, aparte de ellos, existen #[em frameworks] que permiten dar una forma o buenas prácticas sobre cómo trabajar el desarrollo. Son una serie de herramientas y librerías de código ya escrito, que facilitan a los desarrolladores las tareas cotidianas o de uso común, para evitar ejecutarlas desde cero.
+              p Los #[em frameworks] dan un marco de trabajo para programar en un lenguaje y las librerías se encargan de solucionar problemas, haciendo el código más legible. 
           .row(titulo="Angular")
             .col-12.ps-5
-              p.mb-0 Entre los #[i frameworks] más usados se encuentra Angular, perfecto para aplicaciones web. Además, utiliza HTML para realizar UI y es compatible con las últimas versiones de Chrome, Firefox, Edge, iOS y Android.
+              p.mb-0 Entre los #[em frameworks] más usados se encuentra Angular, perfecto para aplicaciones web. Además, utiliza HTML para realizar UI y es compatible con las últimas versiones de Chrome, Firefox, Edge, iOS y Android.
           .row(titulo="React")
             .col-12.ps-5
               p.mb-0 React está escrito en código abierto en JavaScript, muy útil para construir las interfaces de usuario. Es una biblioteca, aunque muchos programadores la consideran un framework por la excelencia de sus componentes. Asimismo, admite y combina diferentes idiomas y tecnologías.                         
@@ -64,7 +64,7 @@
       h2.mt-5.fst-italic Frameworks
 
     .row.justify-content-center.mb-5
-      p Un #[i framework], como se dijo en el ítem anterior, es un marco de trabajo para programar en diferentes lenguajes, usando librerías, buenas prácticas y una forma más sencilla de ejecutar funcionalidades, al reutilizar código. 
+      p Un #[em framework], como se dijo en el ítem anterior, es un marco de trabajo para programar en diferentes lenguajes, usando librerías, buenas prácticas y una forma más sencilla de ejecutar funcionalidades, al reutilizar código. 
     
     .row.justify-content-center.bkg-t2.p-3
       .col-lg-4.col-10
@@ -85,13 +85,13 @@
               p.mb-0 Se incluyen clases, herramientas, interfaces, con las cuales se puede integrar la manipulación de bases de datos de una forma más directa y sencilla.
           .row(titulo="Controladores")
             .col-12.ps-5
-              p.mb-0 Todos los #[i frameworks] tienen implementada, una serie de controladores con los cuales se pueden gestionar eventos, como las operaciones CRUD, formularios de captura de datos, etc.
+              p.mb-0 Todos los #[em frameworks] tienen implementada, una serie de controladores con los cuales se pueden gestionar eventos, como las operaciones CRUD, formularios de captura de datos, etc.
           .row(titulo="Autenticador")
             .col-12.ps-5
               p Incluyen mecanismos con los cuales identificar usuarios a través del inicio de sesión.
           .row(titulo="Abstracción")
             .col-12.ps-5
-              p.mb-0 Cuando se habla de abstracción de URL y sesiones, no se necesita manipular directamente la URL ni las variables de sesión; el #[i framework] se encarga de eso.
+              p.mb-0 Cuando se habla de abstracción de URL y sesiones, no se necesita manipular directamente la URL ni las variables de sesión; el #[em framework] se encarga de eso.
 
       .col-8.col-lg-4          
         figure

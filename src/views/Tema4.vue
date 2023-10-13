@@ -19,15 +19,14 @@
             br
             | Los comentarios pueden ser de una línea o pueden ser comentarios de varias líneas, como se presenta a continuación.
 
-    .row.justify-content-center.mt-5
-      .col-lg-5
+    .row.justify-content-around.mt-5
+      .col-lg-6
         .titulo-sexto.color-acento-contenido
           h5 Figura 7
           br
           span.fst-italic Comentario de una sola línea
         
-        img(src="@/assets/curso/temas/tema4/t4-2.svg").mb-3
-      .col-lg-2
+        img(src="@/assets/curso/temas/tema4/fig7.png").mb-3
       .col-lg-5
         .titulo-sexto.color-acento-contenido
           h5 Figura 8
@@ -91,8 +90,8 @@
           .col-md-6.mb-4.mb-md-0
             p La imagen muestra cómo se aplica un #[b if] de acuerdo con el valor de la variable mensaje; si su valor es #[b true] se muestra el mensaje “Hola Mundo” y de lo contrario se muestra el mensaje “Error”.
             p Para continuar, en JavaScript existen diferentes tipos de bucles que se pueden programar, pero, en esta ocasión, se abordarán solo dos, el ciclo mientras y el ciclo para.
-            p La estructura #[b #[i while]] o mientras, es un ciclo que permite repetir las acciones varias veces, hasta que una condición se cumpla; si la condición se deja de cumplir, el ciclo termina.
-            p Se debe tener muy claro que los dos ciclos el #[b #[i for]] y el #[b #[i while]] son repetitivos, pero el #[b #[i for]], por ejemplo, se usa cuando se conoce cuántas veces se va a repetir las acciones que estarán dentro de él, mientras que, en el #[b #[i while]], no se conoce cuántas veces se va a repetir, sino que se repetirá mientras una condición se siga cumpliendo.
+            p La estructura #[b #[em while]] o mientras, es un ciclo que permite repetir las acciones varias veces, hasta que una condición se cumpla; si la condición se deja de cumplir, el ciclo termina.
+            p Se debe tener muy claro que los dos ciclos el #[b #[em for]] y el #[b #[em while]] son repetitivos, pero el #[b #[em for]], por ejemplo, se usa cuando se conoce cuántas veces se va a repetir las acciones que estarán dentro de él, mientras que, en el #[b #[em while]], no se conoce cuántas veces se va a repetir, sino que se repetirá mientras una condición se siga cumpliendo.
             
           .col-md-6.mt-0
             .titulo-sexto.color-acento-contenido
@@ -118,7 +117,7 @@
           .col-md-6.mb-4.mb-md-0
             p Como se puede observar, el código anterior en la línea 5 hace que la variable veces aumente de uno en uno, cada vez que da un giro el ciclo y, así, en algún momento, llegará a no cumplir la condición de veces < 7 y, en ese momento, el ciclo termina.
 
-            p El siguiente ciclo es el #[b #[i for]], ciclo que es reiterativo, y se conoce cuántas veces se van a repetir las acciones que están dentro de él, sean 5 veces, 6 veces, 15 veces o N veces, y si el usuario es el encargado de determinar las veces que se repetirá.
+            p El siguiente ciclo es el #[b #[em for]], ciclo que es reiterativo, y se conoce cuántas veces se van a repetir las acciones que están dentro de él, sean 5 veces, 6 veces, 15 veces o N veces, y si el usuario es el encargado de determinar las veces que se repetirá.
 
             p.mb-0.text-bold for(inicializacion; condicion; actualizacion) &#123;
 
@@ -135,7 +134,7 @@
           
         .row.justify-content-center.align-items-center.my-lg-4.p-5
           .col-md-6.mb-4.mb-md-0
-            p La sintaxis del #[b #[i for]] es la anterior; en el paréntesis, se configura y contiene tres parámetros: la inicialización que indica la variable de control y en qué valor inicia; normalmente, la variable de control es #[b i] o #[b j], e inicia en cero; el segundo parámetro, es la condición, es decir, hasta adónde va a ir la variable y, el tercer parámetro, es la actualización o el incremento, o sea, cada giro del ciclo, cuánto va a incrementar la variable de control.
+            p La sintaxis del #[b #[em for]] es la anterior; en el paréntesis, se configura y contiene tres parámetros: la inicialización que indica la variable de control y en qué valor inicia; normalmente, la variable de control es #[b i] o #[b j], e inicia en cero; el segundo parámetro, es la condición, es decir, hasta adónde va a ir la variable y, el tercer parámetro, es la actualización o el incremento, o sea, cada giro del ciclo, cuánto va a incrementar la variable de control.
 
             p.text-bold.mb-0 for (var i = 0; i < 5; i++) &#123;
 
@@ -163,8 +162,6 @@
 
           .col-md-6.mb-4.mb-md-0
             p La imagen anterior muestra primero, cómo se declara y se llena un array unidimensional con los días de la semana y, en seguida, se crea un ciclo for para recorrer ese array e ir mostrando en consola, el día de la semana correspondiente a cada posición del vector.
-
-            p |
 
             p El for termina cuando se deje de cumplir la condición de i menor a 7 y se puede ver que, en cada giro, el for aumenta la i en 1.
 

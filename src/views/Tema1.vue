@@ -23,7 +23,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/t1-1.svg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Toda la tecnología web nace con la aparición del internet; en realidad, internet es la unión de dos palabras #[b #[i interconnected]] y #[b #[i network]], lo que quiere decir que es una red global de computadores interconectados entre sí, que permiten compartir información como texto, sonido, imágenes, etc.
+            p.mb-0 Toda la tecnología web nace con la aparición del internet; en realidad, internet es la unión de dos palabras #[b #[em interconnected]] y #[b #[em network]], lo que quiere decir que es una red global de computadores interconectados entre sí, que permiten compartir información como texto, sonido, imágenes, etc.
 
     .row.justify-content-center.mt-5
       p Tim Berners Lee, inventor de la World Wide Web (WWW), en 1994 fundó el consorcio W3C para estandarizar, supervisar y estar al tanto de las tecnologías basadas en el Internet; debido a este procedimiento, se originan los siguientes conceptos:
@@ -35,13 +35,13 @@
               img(data-aos="fade-left" src='@/assets/curso/temas/tema1/t1-2.svg', alt='')
 
           .tarjeta.estilo-cajon.p-3(x="10.6%" y="13.5%" numero="1")
-            h5.text-center #[i Hypertext Transfer Protocol] (Protocolo de Transferencia de Hipertextos)
+            h5.text-center #[em Hypertext Transfer Protocol] (Protocolo de Transferencia de Hipertextos)
             p.mb-0 Es el protocolo de transferencia de hipertexto y es el apoyo que permite la operación de la comunicación entre los dispositivos conectados en la red; por ejemplo, entre computadores de usuarios y los servidores.
           .tarjeta.estilo-cajon.p-3(x="30.4%" y="88.5%" numero="2")
-            h5.text-center #[i Uniform Resource Locator] (Localizador de Recursos Uniforme)
+            h5.text-center #[em Uniform Resource Locator] (Localizador de Recursos Uniforme)
             p.mb-0 Es el localizador de recursos únicos. Es más conocida como la dirección de un sitio web y es la forma como buscamos un sitio en algún punto de la red, a través de su nombre.
           .tarjeta.estilo-cajon.p-3(x="50%" y="13.5%" numero="3")
-            h5.text-center #[i Hypertext Markup Language] (Lenguaje de marcas de hipertexto)
+            h5.text-center #[em Hypertext Markup Language] (Lenguaje de marcas de hipertexto)
             p.mb-0 El lenguaje de marcado de hipertexto es el que permite escribir la estructura de una página web, dando recursos de maquetación como listas, párrafos, viñetas, etc.
           .tarjeta.estilo-cajon.p-3(x="69.4%" y="88.5%" numero="4")
             h5.text-center Servidor web HTTP
@@ -153,7 +153,7 @@
               :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/t1-12.svg')})`}"
             )
             .bloque-texto-g__texto.p-5
-              p.mb-0 Las primeras páginas web fueron estáticas y rígidas, no permitían la fluidez del contenido, la organización dinámica del mismo, o la aplicación de estilos. Debido a esa problemática, en 1994, nace el CSS (hoja de estilos en cascada), lenguaje que se compone de una serie de reglas que permiten dar apariencia a la página web como: color de la letra, márgenes, tamaño de los elementos y, también, posibilita la adaptación de las páginas a las diferentes pantallas de los dispositivos, lo que se llama .#[b #[i responsive design]].
+              p.mb-0 Las primeras páginas web fueron estáticas y rígidas, no permitían la fluidez del contenido, la organización dinámica del mismo, o la aplicación de estilos. Debido a esa problemática, en 1994, nace el CSS (hoja de estilos en cascada), lenguaje que se compone de una serie de reglas que permiten dar apariencia a la página web como: color de la letra, márgenes, tamaño de los elementos y, también, posibilita la adaptación de las páginas a las diferentes pantallas de los dispositivos, lo que se llama: #[b #[em responsive design]].
 
     .row.justify-content-center.mt-5(data-aos="zoom-in")
       p HTML5 mejora la versión de HTML, de acuerdo con el avance en las API y en el conjunto de herramientas que conforman la tecnología web; pero, aparte de esto, presenta nuevas características en el lenguaje HTML, las cuales son:
@@ -169,9 +169,9 @@
               p En este apartado se crearon nuevas etiquetas que permiten una funcionalidad más amplia del lenguaje y ventajas en el manejo de páginas.
               p Se crearon las nuevas etiquetas que seccionan la página, como: &#60;section>, &#60;article>, &#60;nav>, &#60;header>, &#60;footer> y &#60;aside>. Estas etiquetas se profundizarán más adelante y, por ahora, sabemos que permiten dar estructura a la página.
               p Las nuevas etiquetas de audio y video (&#60;audio>, &#60;video>) permiten, al desarrollador, manipular audio y video de forma sencilla.
-              p La etiqueta &#60;video> permite incrustar en la página, un video de forma fácil; a través de sus atributos #[b #[i src]] y #[b #[i controls]], se agregan el video y los botones de control para su reproducción.
-              p El elemento &#60;audio> funciona de forma similar a la etiqueta &#60;video>, con la diferencia que ocupa menos espacio en la página y no soporta los atributos de #[i width] y #[i height].
-              p Otra nueva característica en semántica, se refiere a formularios en HTML5; se incluye nueva API de validación; aparte, atributos nuevos, nuevos valores para la etiqueta #[b #[i input]] con el atributo #[b #[i type]] y #[b #[i output]].
+              p La etiqueta &#60;video> permite incrustar en la página, un video de forma fácil; a través de sus atributos #[b #[em src]] y #[b #[em controls]], se agregan el video y los botones de control para su reproducción.
+              p El elemento &#60;audio> funciona de forma similar a la etiqueta &#60;video>, con la diferencia que ocupa menos espacio en la página y no soporta los atributos de #[em width] y #[em height].
+              p Otra nueva característica en semántica, se refiere a formularios en HTML5; se incluye nueva API de validación; aparte, atributos nuevos, nuevos valores para la etiqueta #[b #[em input]] con el atributo #[b #[em type]] y #[b #[em output]].
               p Junto con lo anterior, también se incluyen nuevos elementos semánticos que permiten contener directamente fórmulas matemáticas (MathML), las etiquetas &#60;mark>, &#60;figure>, &#60;data>, &#60;time>, entre otras, y una mejora en el funcionamiento de la etiqueta &#60;iframe>.
 
         .py-3.py-md-4(titulo="Conectividad")
@@ -181,9 +181,9 @@
                 img(src='@/assets/curso/temas/tema1/t1-14.svg', alt='').mb-4     
             .col-md-8.mb-4.mb-md-0
               p En la parte de conectividad, se tienen unas características nuevas que se muestran a continuación:
-              p #[b #[i Web Sockets]]: es una API que permite abrir una sesión de manera bidireccional entre usuario y servidor, permitiendo el envío de peticiones por eventos, sin tener que estar testeando el servidor en cada llamada.
-              p #[b #[i Server-send events]]: esta función se agrega cuando se necesita que la aplicación web transmita eventos desde el servidor al #[i front-end] del cliente; se hace una conexión unidireccional, es decir, el cliente no podrá responder al servidor.
-              p #[b #[i WebRTC (Web Real-Time Communication)]]: es una tecnología que permite a las aplicaciones y sitios web, capturar y, opcionalmente, transmitir audio y/o video, así como intercambiar datos arbitrarios entre navegadores, sin necesidad de un intermediario. El conjunto de estándares que componen WebRTC hace posible compartir datos y realizar teleconferencias #[i peer-to-peer], sin requerir que el usuario instale complementos o cualquier otro #[i software] de terceros.
+              p #[b #[em Web Sockets]]: es una API que permite abrir una sesión de manera bidireccional entre usuario y servidor, permitiendo el envío de peticiones por eventos, sin tener que estar testeando el servidor en cada llamada.
+              p #[b #[em Server-send events]]: esta función se agrega cuando se necesita que la aplicación web transmita eventos desde el servidor al #[em front-end] del cliente; se hace una conexión unidireccional, es decir, el cliente no podrá responder al servidor.
+              p #[b #[em WebRTC (Web Real-Time Communication)]]: es una tecnología que permite a las aplicaciones y sitios web, capturar y, opcionalmente, transmitir audio y/o video, así como intercambiar datos arbitrarios entre navegadores, sin necesidad de un intermediario. El conjunto de estándares que componen WebRTC hace posible compartir datos y realizar teleconferencias #[em peer-to-peer], sin requerir que el usuario instale complementos o cualquier otro #[em software] de terceros.
  
     .row.justify-content-center.mt-5
       .col-lg-10
@@ -233,7 +233,7 @@
         h2.mt-3 1.2 CSS
 
       .row.justify-content-center
-        p CSS - Hoja de estilos en cascada, (#[i Cascading Style Sheets] por sus siglas en inglés), es el encargado de darle apariencia a la página web. Esta hoja de estilos sirve para especificarle al navegador cómo se deben mostrar los elementos de la página (documentos, información, imágenes, etc.) y cómo estarán organizados o diseñados.
+        p CSS - Hoja de estilos en cascada, (#[em Cascading Style Sheets] por sus siglas en inglés), es el encargado de darle apariencia a la página web. Esta hoja de estilos sirve para especificarle al navegador cómo se deben mostrar los elementos de la página (documentos, información, imágenes, etc.) y cómo estarán organizados o diseñados.
         .col-lg-6
           p Cuando se habla de CSS se habla de reglas que se aplican a los elementos de la página o a un grupo de ellos.
           p Una regla es un código que le indica a un elemento, o a un grupo de ellos, cómo debe ser su diseño; es decir, qué color tendrá, si tiene fondo o color de fondo, tipografía, organización, etc.
@@ -278,7 +278,7 @@
         
     .row.justify-content-center.mt-5
       p Al observar la imagen anterior se ve la etiqueta enlace de HTML que es la que permite relacionar el archivo externo de CSS a través de su propiedad #[b href].
-      p #[b Href] solicita la URL donde se encuentra el archivo externo a relacionar; se debe tener presente que esa dirección debe estar dentro de la carpeta de proyecto, para que no se presente ningún error al momento de subir el proyecto al #[i hosting].
+      p #[b Href] solicita la URL donde se encuentra el archivo externo a relacionar; se debe tener presente que esa dirección debe estar dentro de la carpeta de proyecto, para que no se presente ningún error al momento de subir el proyecto al #[em hosting].
       .col-lg-10.mt-3
         .tarjeta.color-descarga.p-4
           .row.justify-content-around.align-items-center
@@ -305,7 +305,7 @@
                       ul.lista-ul.ps-5
                         li 
                           i.fas.fa-circle.tamano-vineta
-                          span.ps-3 Diseño web #[i responsive].
+                          span.ps-3 Diseño web #[em responsive].
                     .col-auto
                       a.boton.color-boton(:href="obtenerLink('/downloads/Diseno_Web_Responsive.pdf')" target="_blank")
                         span Enlace web

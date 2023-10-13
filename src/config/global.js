@@ -4,7 +4,7 @@ export default {
       'Construcción de la interfaz de usuario del <em>software</em>',
     descripcionCurso:
       'En este componente formativo se trabajarán los temas de interfaces gráficas de usuario, con todos sus conceptos, buenas prácticas y como entorno visual de imágenes y objetos donde se da una interacción productiva, así como también el tema de experiencia de usuario que se enfoca, sobre todo, en páginas web y aplicaciones móviles, como un concepto clave dentro del entorno digital.',
-
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -14,10 +14,6 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-4'],
-        imagen: require('@/assets/curso/portada/banner-principal.svg'),
       },
       {
         clases: ['banner-principal-decorativo-3'],
