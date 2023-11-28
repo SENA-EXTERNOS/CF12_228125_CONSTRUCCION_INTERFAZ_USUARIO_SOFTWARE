@@ -38,37 +38,41 @@
     .row.mt-5
       p En JavaScript, existen tres formas de declarar variables; estas declaraciones son sensibles a mayúsculas y minúsculas.
     
-    .row.justify-content-center.mt-5(data-aos="fade-down-left").text-white
+
+
+
+    .row.justify-content-center.mt-5.text-white(data-aos="fade-down-left")  
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.color-acento-botones.p-4.tarjeta-hoover
+        .tarjeta--boton.color-acento-botones.p-4.fnd-1
           .row.justify-content-center.mb-3
-            .col-5
+            .col-7
               figure
-                img(src='@/assets/curso/temas/tema4/t4-4.svg', alt='Texto que describa la imagen')
+                img.img-128(src='@/assets/curso/temas/tema4/t4-4.svg', alt='Texto que describa la imagen')
 
           h3.text-center var
           p.text-center Declara una variable, opcionalmente, la inicia a un valor.
 
       .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.color-acento-botones.p-4.tarjeta-hoover
+        .tarjeta--boton.color-acento-botones.p-4.fnd-1
           .row.justify-content-center.mb-3
-            .col-5
+            .col-7
               figure
-                img(src='@/assets/curso/temas/tema4/t4-4.svg', alt='Texto que describa la imagen')
+                img.img-128(src='@/assets/curso/temas/tema4/t4-4.svg', alt='Texto que describa la imagen')
 
           h3.text-center let
           p.text-center Declara una variable local con ámbito de bloque, opcionalmente, la inicia a un valor.
 
-
-      .col-sm-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.color-acento-botones.p-4.tarjeta-hoover
+      .col-sm-6.col-lg-4.mb-4.mb-sm-0
+        .tarjeta--boton.color-acento-botones.p-4.fnd-1
           .row.justify-content-center.mb-3
-            .col-5
+            .col-7
               figure
-                img(src='@/assets/curso/temas/tema4/t4-4.svg', alt='Texto que describa la imagen')
+                img.img-128(src='@/assets/curso/temas/tema4/t4-4.svg', alt='Texto que describa la imagen')
 
           h3.text-center const
-          p.text-center Declara un nombre de constante de solo lectura y ámbito de bloque.
+          p.text-center Declara un nombre de constante de solo lectura y ámbito de bloque.  
+
+
         
     .tarjeta.tarjeta--verde.p-4.mt-5
       SlyderA(tipo="b" data-aos="fade-down-left")

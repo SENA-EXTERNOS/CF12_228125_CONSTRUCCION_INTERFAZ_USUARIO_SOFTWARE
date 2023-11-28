@@ -215,9 +215,9 @@ export default {
   referencias: [
     {
       referencia:
-        'Campaña Haro, M. N., y Martillo Vásquez, E. L. (2020). <em>Análisis, estudio y prototipo de la aplicación de experiencia de usuario (UX) en el desarrollo de la interfaz gráfica de usuario de la plataforma e integración con componentes del sistema del proyecto FCI temonet fase II de la Universidad de Guayaquil</em> (Proyecto de titulación, Universidad de Guayaquil, Guayaquil). Repositorio UG.',
+        'Guapi Auquilla, M. J. (2018). <em>Diseño metodológico para el desarrollo de interfaces gráficas en páginas web utilizando los lenguajes HTML5 y CSS3.</em> Trabajo presentado como requisito para obtener el título de Licenciado en la especialidad de Diseño Gráfico. Universidad Nacional De Chimborazo Facultad De Ciencias De La Educación, Humanas Y Tecnologías.',
       link:
-        'http://repositorio.ug.edu.ec/bitstream/redug/52257/1/B-CINT-PTG-N.%20612%20Campa%C3%B1a%20Haro%20Michelle%20Nydia%20.%20Martillo%20V%C3%A1squez%20Estefania%20%20Lisset.pdf',
+        'http://dspace.unach.edu.ec/bitstream/51000/5163/1/UNACH-FCEHT-DS%c3%91-GRF-2018-000018.pdf',
     },
     {
       referencia:
